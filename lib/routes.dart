@@ -1,4 +1,6 @@
 class Routes {
+  static const String Demo = '/demo';
+
   static const String Home = '/';
   static const String Download = '/download';
   static const String Subject = '/subject';

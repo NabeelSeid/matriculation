@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:matric/demo.dart';
 import 'package:matric/routes.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
+    // for development purpose
+    case Routes.Demo:
+      return MaterialPageRoute(builder: (_) => Demo());
     case Routes.Home:
       // MaterialPageRoute(builder: (_) => HomeView());
       return null;
