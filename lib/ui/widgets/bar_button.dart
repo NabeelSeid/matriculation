@@ -21,7 +21,7 @@ class BarButton extends StatelessWidget {
       elevation: elevation,
       borderRadius: borderRadius,
       child: InkWell(
-        onTap: () {},
+        onTap: onTab,
         borderRadius: borderRadius,
         child: child,
       ),

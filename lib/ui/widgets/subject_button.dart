@@ -25,6 +25,7 @@ class SubjectButton extends StatelessWidget {
     return BarButton(
       elevation: 4,
       borderRadius: boxy,
+      onTab: () {},
       child: ConstrainedBox(
         constraints: BoxConstraints(minHeight: 90, minWidth: 110),
         child: Container(
@@ -35,28 +36,36 @@ class SubjectButton extends StatelessWidget {
               begin: Alignment.bottomLeft,
             ),
           ),
-          child: Padding(
-            padding:
-                const EdgeInsets.symmetric(vertical: 15.0, horizontal: 20.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Column(
-                  mainAxisSize: MainAxisSize.min,
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  crossAxisAlignment: CrossAxisAlignment.start,
+          child: Material(
+            borderRadius: boxy,
+            type: MaterialType.transparency,
+            child: InkWell(
+              borderRadius: boxy,
+              onTap: () {},
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                    vertical: 15.0, horizontal: 20.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    Opacity(
-                      opacity: 0.6,
-                      child: Text(year, style: overline(context)),
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Opacity(
+                          opacity: 0.6,
+                          child: Text(year, style: overline(context)),
+                        ),
+                        SizedBox(height: 5.0),
+                        Text(subject, style: title),
+                      ],
                     ),
-                    SizedBox(height: 5.0),
-                    Text(subject, style: title),
+                    examToDownload(context)
                   ],
                 ),
-                examToDownload(context)
-              ],
+              ),
             ),
           ),
         ),

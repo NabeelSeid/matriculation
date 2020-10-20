@@ -20,13 +20,16 @@ class HomeView extends StatelessWidget {
                   return Padding(
                     padding: EdgeInsets.fromLTRB(10, topPadding, 10, 10),
                     child: SubjectButton(
-                      subject: 'Hello',
+                      subject: 'Chemistry',
+                      year: '2008',
                     ),
                   );
                 },
                 itemCount: 10,
               ),
-              DownloadBarButton()
+              DownloadBarButton(
+                onTab: () {},
+              )
             ],
           ),
         ),
