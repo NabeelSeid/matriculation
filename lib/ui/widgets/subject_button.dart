@@ -5,7 +5,20 @@ import 'package:matric/ui/shared/font_styles.dart';
 import 'package:matric/ui/widgets/bar_button.dart';
 
 class SubjectButton extends StatelessWidget {
-  const SubjectButton({Key key}) : super(key: key);
+  const SubjectButton({
+    Key key,
+    @required this.subject,
+    this.year,
+    this.downloadMode: false,
+    this.examLeft: 0,
+    this.onTap,
+  }) : super(key: key);
+
+  final String subject;
+  final String year;
+  final bool downloadMode;
+  final int examLeft;
+  final Function onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -36,36 +49,13 @@ class SubjectButton extends StatelessWidget {
                   children: [
                     Opacity(
                       opacity: 0.6,
-                      child: Text('2005', style: overline(context)),
+                      child: Text(year, style: overline(context)),
                     ),
                     SizedBox(height: 5.0),
-                    Text('Chemistry', style: title),
+                    Text(subject, style: title),
                   ],
                 ),
-                Container(
-                  margin: const EdgeInsets.only(bottom: 5.0),
-                  child: Material(
-                    type: MaterialType.card,
-                    elevation: 3,
-                    borderRadius: rounded,
-                    color: canvasBG(context, opacity: 0.8),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Icon(Icons.check, color: Colors.green),
-
-                      // Row(
-                      //   mainAxisSize: MainAxisSize.min,
-                      //   children: [
-                      //     Icon(Icons.cloud_download),
-                      //     SizedBox(
-                      //       width: 10,
-                      //     ),
-                      //     Text('3 Exams'),
-                      //   ],
-                      // ),
-                    ),
-                  ),
-                )
+                examToDownload(context)
               ],
             ),
           ),
@@ -73,4 +63,34 @@ class SubjectButton extends StatelessWidget {
       ),
     );
   }
+
+  Widget examToDownload(context) => downloadMode
+      ? Container(
+          margin: const EdgeInsets.only(bottom: 5.0),
+          child: Material(
+            type: MaterialType.card,
+            elevation: 3,
+            borderRadius: rounded,
+            color: canvasBG(context, opacity: 0.8),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: examLeft > 0
+                  ? Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.cloud_download,
+                          color: accent(context),
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Text('$examLeft Exams'),
+                      ],
+                    )
+                  : Icon(Icons.check, color: Colors.green),
+            ),
+          ),
+        )
+      : Container();
 }
