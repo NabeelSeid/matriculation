@@ -8,7 +8,7 @@ class SubjectButton extends StatelessWidget {
   const SubjectButton({
     Key key,
     @required this.subject,
-    this.year,
+    this.year: '',
     this.downloadMode: false,
     this.examLeft: 0,
     this.onTap,
