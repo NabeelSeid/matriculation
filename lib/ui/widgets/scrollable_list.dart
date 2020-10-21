@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  HomePage(
+class ScrollableList extends StatelessWidget {
+  ScrollableList(
       {Key key,
       this.children,
       this.paddingLeft: 10,

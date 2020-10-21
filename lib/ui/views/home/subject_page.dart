@@ -7,7 +7,7 @@ class SubjectPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HomePage(
+    return ScrollableList(
       paddingTop: 60,
       paddingInBetween: 15.0,
       children: [
