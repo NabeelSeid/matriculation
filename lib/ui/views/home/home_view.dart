@@ -3,6 +3,7 @@ import 'package:matric/ui/shared/colors.dart';
 import 'package:matric/ui/views/home/download_button.dart';
 import 'package:matric/ui/views/home/exam_expansion_tile.dart';
 import 'package:matric/ui/views/home/home_page.dart';
+import 'package:matric/ui/views/home/setting_page.dart';
 import 'package:matric/ui/views/home/subject_page.dart';
 import 'package:matric/ui/views/home/year_page.dart';
 import 'package:matric/ui/widgets/subject_button.dart';
@@ -25,7 +26,7 @@ class _HomeViewState extends State<HomeView> {
           padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
           child: Stack(
             children: [
-              YearPage(),
+              SettingPage(),
               DownloadBarButton(
                 onTab: () {},
               )
