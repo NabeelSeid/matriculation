@@ -1,9 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:matric/ui/shared/border_shape.dart';
-import 'package:matric/ui/shared/colors.dart';
-import 'package:matric/ui/shared/font_styles.dart';
 import 'package:matric/ui/views/home/exam_expansion_tile.dart';
 import 'package:matric/ui/widgets/subject_button.dart';
 
