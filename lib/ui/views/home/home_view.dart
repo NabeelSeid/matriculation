@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:matric/routes.dart';
 import 'package:matric/ui/shared/colors.dart';
+import 'package:matric/ui/shared/constants.dart';
 import 'package:matric/ui/views/home/download_button.dart';
 import 'package:matric/ui/views/home/setting_page.dart';
 import 'package:matric/ui/views/home/subject_page.dart';
@@ -31,8 +33,11 @@ class _HomeViewState extends State<HomeView> {
                   SettingPage(),
                 ],
               ),
-              DownloadBarButton(
-                onTab: () {},
+              Hero(
+                tag: Constants.homeDownloadTrans,
+                child: DownloadBarButton(
+                  onTab: () => Navigator.of(context).pushNamed(Routes.Download),
+                ),
               )
             ],
           ),

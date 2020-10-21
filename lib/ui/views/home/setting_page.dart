@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:matric/ui/views/home/home_page.dart';
+import 'package:matric/ui/widgets/scrollable_list.dart';
 
 class SettingPage extends StatelessWidget {
   const SettingPage({Key key}) : super(key: key);
@@ -7,7 +7,8 @@ class SettingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return HomePage(
-      paddingBottom: 15.0,
+      paddingTop: 60,
+      paddingInBetween: 15.0,
       children: [
         SwitchListTileWithIcon(
           value: false,

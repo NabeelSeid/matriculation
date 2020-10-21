@@ -12,8 +12,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        brightness: Brightness.light,
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        appBarTheme: AppBarTheme(
+            color: ThemeData.light().canvasColor,
+            iconTheme: ThemeData.light().iconTheme,
+            textTheme: ThemeData.light().textTheme),
       ),
       initialRoute: Routes.Home,
       onGenerateRoute: generateRoute,

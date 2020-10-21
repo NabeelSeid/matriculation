@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:matric/demo.dart';
 import 'package:matric/routes.dart';
+import 'package:matric/ui/views/download/download_view.dart';
 import 'package:matric/ui/views/home/home_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
@@ -13,8 +14,7 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (_) => HomeView());
       break;
     case Routes.Download:
-      //TODO download route
-      return null;
+      return MaterialPageRoute(builder: (_) => DownloadView());
     case Routes.Subject:
       //TODO subject route
       return null;
