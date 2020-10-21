@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:matric/ui/shared/colors.dart';
 import 'package:matric/ui/views/home/download_button.dart';
 import 'package:matric/ui/views/home/exam_expansion_tile.dart';
+import 'package:matric/ui/views/home/home_page.dart';
 import 'package:matric/ui/widgets/subject_button.dart';
 
 class HomeView extends StatefulWidget {
@@ -22,24 +23,29 @@ class _HomeViewState extends State<HomeView> {
           padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
           child: Stack(
             children: [
-              // ListView.builder(
-              //   physics: BouncingScrollPhysics(),
-              //   itemBuilder: (_, index) {
-              //     double topPadding = index == 0 ? 60 : 10;
-              //     return Padding(
-              //       padding: EdgeInsets.fromLTRB(10, topPadding, 10, 10),
-              //       child: SubjectButton(
-              //         subject: 'Chemistry',
-              //         year: '2008',
-              //       ),
-              //     );
-              //   },
-              //   itemCount: 10,
-              // ),
-              SingleChildScrollView(
-                child: Padding(
-                  padding: EdgeInsets.fromLTRB(10, 60, 10, 10),
-                  child: ExamExpansionTile(
+              HomePage(children: [
+                ExamExpansionTile(
+                  title: Text('Exams'),
+                  children: [
+                    SubjectButton(
+                      subject: 'Chemistry',
+                      year: '2008',
+                    ),
+                    SubjectButton(
+                      subject: 'Chemistry',
+                      year: '2008',
+                    ),
+                    SubjectButton(
+                      subject: 'Chemistry',
+                      year: '2008',
+                    ),
+                    SubjectButton(
+                      subject: 'Chemistry',
+                      year: '2008',
+                    )
+                  ],
+                ),
+                ExamExpansionTile(
                     title: Text('Exams'),
                     children: [
                       SubjectButton(
@@ -59,9 +65,8 @@ class _HomeViewState extends State<HomeView> {
                         year: '2008',
                       )
                     ],
-                  ),
-                ),
-              ),
+                  )
+              ]),
 
               DownloadBarButton(
                 onTab: () {},
