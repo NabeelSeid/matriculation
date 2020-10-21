@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 Color accent(context, {opacity: 1}) => Theme.of(context).accentColor;
 
+Color textColor(context, {opacity: 1}) =>
+    Theme.of(context).textTheme.bodyText2.color.withOpacity(opacity);
+
 Color cardBG(context, {opacity: 1}) =>
     Theme.of(context).cardColor.withOpacity(opacity);
 
