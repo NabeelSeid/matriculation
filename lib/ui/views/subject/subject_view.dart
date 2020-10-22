@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:matric/routes.dart';
 import 'package:matric/ui/widgets/expandable_app_bar.dart';
 import 'package:matric/ui/widgets/subject_button.dart';
 
@@ -17,6 +18,7 @@ class SubjectView extends StatelessWidget {
             SubjectButton(
               subject: 'Subject',
               year: '2010',
+              onTap: () => Navigator.of(context).pushNamed(Routes.Exam),
             ),
             SizedBox(height: 30),
             SubjectButton(

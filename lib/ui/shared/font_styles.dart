@@ -6,3 +6,5 @@ TextStyle overline(context) =>
     Theme.of(context).textTheme.overline.copyWith(fontSize: 11.0);
 
 TextStyle headline6(context) => Theme.of(context).textTheme.headline6;
+
+TextStyle subtitle2(context) => Theme.of(context).textTheme.subtitle2;

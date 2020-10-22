@@ -38,7 +38,7 @@ class _ExpandableAppBarState extends State<ExpandableAppBar> {
       _expandedHeight = _screenHeight * 0.3967;
     });
 
-    _background = widget.background ?? Colors.grey.withOpacity(0.75);
+    _background = widget.background ?? Colors.grey.withOpacity(0.5);
 
     _controller.addListener(() {
       double newOffset = overlapOffset(_controller.offset);
