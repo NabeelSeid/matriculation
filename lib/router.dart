@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:matric/demo.dart';
 import 'package:matric/routes.dart';
 import 'package:matric/ui/views/download/download_view.dart';
+import 'package:matric/ui/views/exam/exam_view.dart';
 import 'package:matric/ui/views/home/home_view.dart';
 import 'package:matric/ui/views/subject/subject_view.dart';
 
@@ -22,8 +23,8 @@ class Router {
         return MaterialPageRoute(builder: (_) => SubjectView());
         break;
       case Routes.Exam:
-        //TODO exam route
-        return null;
+        return MaterialPageRoute(builder: (_) => ExamView());
+        break;
       case Routes.ExamPractice:
         //TODO exam practice route
         return null;
