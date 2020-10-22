@@ -1,6 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:matric/ui/widgets/expandable_app_bar.dart';
+import 'package:matric/ui/widgets/expandable_app_bar_delegate.dart';
 import 'package:matric/ui/shared/border_shape.dart';
 import 'package:matric/ui/shared/font_styles.dart';
 import 'package:matric/ui/views/home/exam_expansion_tile.dart';
@@ -17,17 +19,19 @@ class _DemoState extends State<Demo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('gogo'),
+      body: ExpandableAppBar(
+        title: 'Expandable AppBar',
+        child: Column(
+          children: [
+            SizedBox(height: 20),
+            SubjectButton(subject: 'Subject Here'),
+            SizedBox(height: 20),
+            SubjectButton(subject: 'Subject Here'),
+            SizedBox(height: 20),
+            SubjectButton(subject: 'Subject Here'),
+          ],
+        ),
+      ),
     );
   }
 }
-
-// ListView.builder(
-//             padding: const EdgeInsets.all(8),
-//             itemCount: 30,
-//             itemBuilder: (BuildContext context, int index) {
-//               return Container(
-//                 height: 50,
-//                 child: Center(child: Text('Item $index')),
-//               );
-//             })
