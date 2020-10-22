@@ -10,16 +10,30 @@ class SubjectView extends StatelessWidget {
     return Scaffold(
       body: ExpandableAppBar(
           title: 'Subject',
+          padding: EdgeInsets.fromLTRB(30, 50, 30, 0),
+          background: Colors.indigoAccent.withOpacity(0.2),
           child: Column(
             children: [
               SubjectButton(
                 subject: 'Subject',
                 year: '2010',
               ),
+              SizedBox(height: 30),
               SubjectButton(
                 subject: 'Subject',
                 year: '2010',
               ),
+              SizedBox(height: 30),
+              SubjectButton(
+                subject: 'Subject',
+                year: '2010',
+              ),
+              SizedBox(height: 30),
+              SubjectButton(
+                subject: 'Subject',
+                year: '2010',
+              ),
+              SizedBox(height: 30),
               SubjectButton(
                 subject: 'Subject',
                 year: '2010',

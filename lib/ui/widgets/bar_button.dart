@@ -6,13 +6,13 @@ class BarButton extends StatelessWidget {
     this.elevation: 3,
     @required this.borderRadius,
     @required this.child,
-    this.onTab,
+    this.onTap,
   }) : super(key: key);
 
   final double elevation;
   final BorderRadius borderRadius;
   final Widget child;
-  final Function onTab;
+  final Function onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class BarButton extends StatelessWidget {
       elevation: elevation,
       borderRadius: borderRadius,
       child: InkWell(
-        onTap: onTab,
+        onTap: onTap,
         borderRadius: borderRadius,
         child: child,
       ),

@@ -25,7 +25,7 @@ class SubjectButton extends StatelessWidget {
     return BarButton(
       elevation: 4,
       borderRadius: boxy,
-      onTab: () {},
+      onTap: null,
       child: ConstrainedBox(
         constraints: BoxConstraints(minHeight: 90, minWidth: 110),
         child: Container(
@@ -41,7 +41,7 @@ class SubjectButton extends StatelessWidget {
             type: MaterialType.transparency,
             child: InkWell(
               borderRadius: boxy,
-              onTap: () {},
+              onTap: onTap,
               child: Padding(
                 padding: const EdgeInsets.symmetric(
                     vertical: 15.0, horizontal: 20.0),

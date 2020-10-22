@@ -36,7 +36,7 @@ class _HomeViewState extends State<HomeView> {
               Hero(
                 tag: Constants.homeDownloadTrans,
                 child: DownloadBarButton(
-                  onTab: () => Navigator.of(context).pushNamed(Routes.Download),
+                  onTap: () => Navigator.of(context).pushNamed(Routes.Download),
                 ),
               )
             ],

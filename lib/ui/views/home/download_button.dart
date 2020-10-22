@@ -5,15 +5,16 @@ import 'package:matric/ui/widgets/bar_button.dart';
 class DownloadBarButton extends StatelessWidget {
   const DownloadBarButton({
     Key key,
-    this.onTab,
+    this.onTap,
   }) : super(key: key);
-  final Function onTab;
+
+  final Function onTap;
 
   @override
   Widget build(BuildContext context) {
     return BarButton(
       borderRadius: boxy,
-      onTab: onTab,
+      onTap: onTap,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Row(

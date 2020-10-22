@@ -3,6 +3,7 @@ import 'package:matric/demo.dart';
 import 'package:matric/routes.dart';
 import 'package:matric/ui/views/download/download_view.dart';
 import 'package:matric/ui/views/home/home_view.dart';
+import 'package:matric/ui/views/subject/subject_view.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -16,9 +17,10 @@ class Router {
         break;
       case Routes.Download:
         return MaterialPageRoute(builder: (_) => DownloadView());
+        break;
       case Routes.Subject:
-        //TODO subject route
-        return null;
+        return MaterialPageRoute(builder: (_) => SubjectView());
+        break;
       case Routes.Exam:
         //TODO exam route
         return null;
