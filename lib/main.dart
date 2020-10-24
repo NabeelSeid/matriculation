@@ -18,13 +18,15 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        appBarTheme: AppBarTheme(
-            color: ThemeData.light().canvasColor,
-            iconTheme: ThemeData.light().iconTheme,
-            textTheme: ThemeData.light().textTheme),
+        appBarTheme: Theme.of(context).appBarTheme.copyWith(
+              elevation: 0.0,
+              color: ThemeData.light().canvasColor,
+              iconTheme: ThemeData.light().iconTheme,
+              textTheme: Theme.of(context).textTheme,
+            ),
       ),
       // navigatorKey: locator<NavigationService>().navigatorKey,
-      initialRoute: Routes.Home,
+      initialRoute: Routes.Demo,
       onGenerateRoute: Router.generateRoute,
     );
   }
