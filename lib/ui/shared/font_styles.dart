@@ -15,5 +15,10 @@ TextStyle pageIndicatorStyle(context) => Theme.of(context)
     .headline6
     .copyWith(fontWeight: FontWeight.normal);
 
+TextStyle cardTitle(context) => Theme.of(context)
+    .textTheme
+    .headline6
+    .copyWith(fontWeight: FontWeight.normal, color: accent(context));
+
 TextStyle selectedPageIndicatorStyle(context) =>
     Theme.of(context).textTheme.headline3.copyWith(color: textColor(context));
