@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             ),
       ),
       // navigatorKey: locator<NavigationService>().navigatorKey,
-      initialRoute: Routes.Demo,
+      initialRoute: Routes.Home,
       onGenerateRoute: Router.generateRoute,
     );
   }
