@@ -29,16 +29,19 @@ class _ExamPracticeViewState extends State<ExamPracticeView> {
       body: PageViewWithIndicator(
           bodyPageController: _bodyPageController,
           childern: [
-            Column(
-              children: [
-                TitledCard(
-                  title: 'Question',
-                  child: Text(
-                      'Why do micro-organisms decompose dead organic matter?'),
-                ),
-                ChoiceCard(),
-                Expanded(child: Container())
-              ],
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+              child: Column(
+                children: [
+                  TitledCard(
+                    title: 'Question',
+                    child: Text(
+                        'Why do micro-organisms decompose dead organic matter?'),
+                  ),
+                  ChoiceCard(),
+                  Expanded(child: Container())
+                ],
+              ),
             ),
             Center(child: Text('2')),
             Center(child: Text('3')),
