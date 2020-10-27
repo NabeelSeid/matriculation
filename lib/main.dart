@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:matric/core/services/navigation_service.dart';
 import 'package:matric/locator.dart';
 import 'package:matric/router.dart';
 import 'package:matric/routes.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
               textTheme: Theme.of(context).textTheme,
             ),
       ),
-      // navigatorKey: locator<NavigationService>().navigatorKey,
+      navigatorKey: locator<NavigationService>().navigatorKey,
       initialRoute: Routes.Home,
       onGenerateRoute: Router.generateRoute,
     );

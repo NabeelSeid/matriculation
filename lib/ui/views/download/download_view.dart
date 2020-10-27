@@ -8,8 +8,21 @@ import 'package:matric/ui/widgets/scrollable_list.dart';
 import 'package:matric/ui/widgets/subject_button.dart';
 import 'package:provider/provider.dart';
 
-class DownloadView extends StatelessWidget {
+class DownloadView extends StatefulWidget {
   const DownloadView({Key key}) : super(key: key);
+
+  @override
+  _DownloadViewState createState() => _DownloadViewState();
+}
+
+class _DownloadViewState extends State<DownloadView> {
+  DownloadModel _downloadModel = locator<DownloadModel>();
+
+  @override
+  void initState() {
+    _downloadModel.loadExams();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,10 +38,11 @@ class DownloadView extends StatelessWidget {
             title: Text('Download Exams', style: headline6(context)),
           ),
           body: ChangeNotifierProvider<DownloadModel>.value(
-            value: locator<DownloadModel>(),
+            value: _downloadModel,
             child: Consumer<DownloadModel>(
-              builder: (_, model, child) =>
-                  model.state == ViewState.Busy ? Loading() : child,
+              builder: (_, model, child) => model.state == ViewState.Busy
+                  ? Loading(message: model.message)
+                  : child,
               child: ScrollableList(
                 paddingTop: 20,
                 paddingLeft: 30,

@@ -31,7 +31,8 @@ dependencies:
 
   provider: ^4.3.2+2
   get_it: ^5.0.1
-
+  connectivity: ^2.0.0
+  
   font_awesome_flutter: ^8.10.0
   catex: ^0.0.1+6
   

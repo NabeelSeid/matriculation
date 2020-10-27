@@ -1,13 +1,20 @@
 import 'dart:io';
 
+import 'package:connectivity/connectivity.dart';
+
 class ConnectivityService {
   Future<bool> connected() async {
-    try {
-      final result = await InternetAddress.lookup('google.com');
-      if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
-        return true;
+    var connectivityResult = await (Connectivity().checkConnectivity());
+    if (connectivityResult != ConnectivityResult.none) {
+      try {
+        final result = await InternetAddress.lookup('google.com');
+        if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
+          return true;
+        }
+      } on SocketException catch (_) {
+        return false;
       }
-    } on SocketException catch (_) {
+    } else {
       return false;
     }
   }
