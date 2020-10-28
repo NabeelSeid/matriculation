@@ -7,8 +7,8 @@ class FirestoreService {
     firestore = FirebaseFirestore.instance;
   }
 
-  Future<Map<String, dynamic>> fetchSearchRefs() async {
+  Future<List<Map>> fetchSearchRefs() async {
     var docs = await firestore.collection('search-refs').get();
-    return docs.docs[0].data();
+    return docs.docs.map((e) => e.data()).toList();
   }
 }
