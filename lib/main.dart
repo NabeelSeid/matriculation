@@ -4,7 +4,11 @@ import 'package:matric/locator.dart';
 import 'package:matric/router.dart';
 import 'package:matric/routes.dart';
 
-void main() {
+import 'package:firebase_core/firebase_core.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   setupLocator();
   runApp(MyApp());
 }
