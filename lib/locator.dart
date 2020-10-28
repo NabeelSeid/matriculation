@@ -1,5 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:matric/core/services/connectivity_service.dart';
+import 'package:matric/core/services/firestore_service.dart';
 import 'package:matric/core/view_models/download_model.dart';
 import 'package:matric/core/services/navigation_service.dart';
 
@@ -12,4 +13,5 @@ void setupLocator() {
   // Services
   locator.registerLazySingleton(() => NavigationService());
   locator.registerLazySingleton(() => ConnectivityService());
+  locator.registerLazySingleton(() => FirestoreService());
 }
