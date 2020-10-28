@@ -42,30 +42,18 @@ class _DownloadViewState extends State<DownloadView> {
             child: Consumer<DownloadModel>(
               builder: (_, model, child) => model.state == ViewState.Busy
                   ? Loading(message: model.message)
-                  : child,
-              child: ScrollableList(
-                paddingTop: 20,
-                paddingLeft: 30,
-                paddingRight: 30,
-                paddingInBetween: 15.0,
-                children: [
-                  SubjectButton(
-                    subject: 'Physics',
-                    downloadMode: true,
-                    examLeft: 2,
-                  ),
-                  SubjectButton(
-                    subject: 'Biology',
-                    downloadMode: true,
-                    examLeft: 3,
-                  ),
-                  SubjectButton(
-                    subject: 'Chemistry',
-                    downloadMode: true,
-                    examLeft: 5,
-                  )
-                ],
-              ),
+                  : ScrollableList(
+                      paddingTop: 20,
+                      paddingLeft: 30,
+                      paddingRight: 30,
+                      paddingInBetween: 15.0,
+                      children: model.searchRefs
+                          .map((ref) => SubjectButton(
+                                subject: ref.subject,
+                                examLeft: ref.nationalExams.length,
+                              ))
+                          .toList(),
+                    ),
             ),
           ),
         ),

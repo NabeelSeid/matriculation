@@ -9,14 +9,12 @@ class SubjectButton extends StatelessWidget {
     Key key,
     @required this.subject,
     this.year: '',
-    this.downloadMode: false,
     this.examLeft: 0,
     this.onTap,
   }) : super(key: key);
 
   final String subject;
   final String year;
-  final bool downloadMode;
   final int examLeft;
   final Function onTap;
 
@@ -73,7 +71,7 @@ class SubjectButton extends StatelessWidget {
     );
   }
 
-  Widget examToDownload(context) => downloadMode
+  Widget examToDownload(context) => examLeft > 0
       ? Container(
           margin: const EdgeInsets.only(bottom: 5.0),
           child: Material(

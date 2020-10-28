@@ -22,6 +22,9 @@ class DownloadModel extends ChangeNotifier {
     if (await locator<ConnectivityService>().connected()) {
       var result = await _firestoreService.fetchSearchRefs();
       _searchRefs = result.map((e) => SearchRefModel.fromJson(e)).toList();
+      _searchRefs.removeWhere((element) => element.nationalExams.isEmpty);
+      // TODO handle null searchRefs
+
       _state = ViewState.Idle;
       notifyListeners();
     } else {
