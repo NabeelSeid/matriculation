@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:matric/core/view_models/download_model.dart';
 import 'package:matric/locator.dart';
+import 'package:matric/ui/shared/colors.dart';
 import 'package:matric/ui/shared/constants.dart';
 import 'package:matric/ui/shared/font_styles.dart';
 import 'package:matric/ui/widgets/loading.dart';
@@ -50,6 +51,7 @@ class _DownloadViewState extends State<DownloadView> {
                       children: model.searchRefs
                           .map((ref) => SubjectButton(
                                 subject: ref.subject,
+                                color: subjectColor(ref.subject),
                                 examLeft: ref.nationalExams.length,
                               ))
                           .toList(),

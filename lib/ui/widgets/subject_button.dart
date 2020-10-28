@@ -9,12 +9,14 @@ class SubjectButton extends StatelessWidget {
     Key key,
     @required this.subject,
     this.year: '',
+    this.color,
     this.examLeft: 0,
     this.onTap,
   }) : super(key: key);
 
   final String subject;
   final String year;
+  final Color color;
   final int examLeft;
   final Function onTap;
 
@@ -30,7 +32,7 @@ class SubjectButton extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: boxy,
             gradient: LinearGradient(
-              colors: [Colors.white, Colors.deepPurpleAccent],
+              colors: [canvasBG(context), color ?? canvasBG(context)],
               begin: Alignment.bottomLeft,
             ),
           ),
