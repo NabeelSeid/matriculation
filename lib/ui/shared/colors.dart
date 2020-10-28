@@ -17,3 +17,28 @@ Color civicsColor = Colors.purpleAccent;
 Color englishColor = Colors.red;
 Color physicsColor = Colors.green;
 Color mathColor = Colors.cyanAccent;
+
+Color subjectColor(String subject) {
+  switch (subject) {
+    case 'biology':
+      return biologyColor;
+      break;
+    case 'chemistry':
+      return chemistryColor;
+      break;
+    case 'civics':
+      return civicsColor;
+      break;
+    case 'english':
+      return englishColor;
+      break;
+    case 'physics':
+      return physicsColor;
+      break;
+    case 'math':
+      return mathColor;
+      break;
+    default:
+      return null;
+  }
+}
