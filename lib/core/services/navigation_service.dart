@@ -9,6 +9,11 @@ class NavigationService {
   }
 
   void goBack() {
-    return navigatorKey.currentState.pop();
+    navigatorKey.currentState.pop();
+  }
+
+  void goBackFromDialog() {
+    navigatorKey.currentState.pop();
+    navigatorKey.currentState.pop();
   }
 }

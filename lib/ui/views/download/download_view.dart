@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:matric/core/services/navigation_service.dart';
 import 'package:matric/core/view_models/download_model.dart';
 import 'package:matric/locator.dart';
+import 'package:matric/ui/shared/alert_style.dart';
 import 'package:matric/ui/shared/colors.dart';
 import 'package:matric/ui/shared/constants.dart';
 import 'package:matric/ui/shared/font_styles.dart';
@@ -8,6 +10,7 @@ import 'package:matric/ui/widgets/loading.dart';
 import 'package:matric/ui/widgets/scrollable_list.dart';
 import 'package:matric/ui/widgets/subject_button.dart';
 import 'package:provider/provider.dart';
+import 'package:rflutter_alert/rflutter_alert.dart';
 
 class DownloadView extends StatefulWidget {
   const DownloadView({Key key}) : super(key: key);
@@ -18,11 +21,34 @@ class DownloadView extends StatefulWidget {
 
 class _DownloadViewState extends State<DownloadView> {
   DownloadModel _downloadModel = locator<DownloadModel>();
+  NavigationService _navigationService = locator<NavigationService>();
 
   @override
   void initState() {
-    _downloadModel.loadExams();
+    _downloadModel.loadExams(_showDialog);
     super.initState();
+  }
+
+  void _showDialog() {
+    Alert(
+      context: context,
+      style: alertStyle(context: context),
+      title: "Network Error",
+      desc: "There seems there is a network error!",
+      buttons: [
+        DialogButton(
+          child: Text('Ok'),
+          onPressed: () => _navigationService.goBackFromDialog(),
+        ),
+        DialogButton(
+          child: Text('Try Again'),
+          onPressed: () {
+            _downloadModel.loadExams(_showDialog);
+            _navigationService.goBack();
+          },
+        )
+      ],
+    ).show();
   }
 
   @override

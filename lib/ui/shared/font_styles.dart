@@ -8,6 +8,8 @@ TextStyle overline(context) =>
 
 TextStyle headline6(context) => Theme.of(context).textTheme.headline6;
 
+TextStyle subtitle1(context) => Theme.of(context).textTheme.subtitle1;
+
 TextStyle subtitle2(context) => Theme.of(context).textTheme.subtitle2;
 
 TextStyle pageIndicatorStyle(context) => Theme.of(context)

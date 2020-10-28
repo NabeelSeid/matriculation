@@ -18,7 +18,7 @@ class DownloadModel extends ChangeNotifier {
   String get message => _message;
   List<SearchRefModel> get searchRefs => _searchRefs;
 
-  void loadExams() async {
+  void loadExams(Function showOnError) async {
     if (await locator<ConnectivityService>().connected()) {
       var result = await _firestoreService.fetchSearchRefs();
       _searchRefs = result.map((e) => SearchRefModel.fromJson(e)).toList();
@@ -28,7 +28,8 @@ class DownloadModel extends ChangeNotifier {
       _state = ViewState.Idle;
       notifyListeners();
     } else {
-      locator<NavigationService>().goBack();
+      showOnError();
+      // locator<NavigationService>().goBack();
     }
   }
 }
