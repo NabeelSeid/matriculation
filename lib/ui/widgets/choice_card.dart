@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/style.dart';
+import 'package:matric/core/choices_enum.dart';
 import 'package:matric/ui/shared/border_shape.dart';
 import 'package:matric/ui/widgets/title_card.dart';
-
-enum Choices { A, B, C, D, X }
 
 class ChoiceCard extends StatefulWidget {
   const ChoiceCard({Key key, this.title: 'Choices'}) : super(key: key);
