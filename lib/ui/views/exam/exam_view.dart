@@ -26,6 +26,7 @@ class ExamView extends StatelessWidget {
                 title: Text('Exam Simulation', style: subtitle2(context)),
                 icon: FaIcon(FontAwesomeIcons.userClock)),
             SizedBox(height: 30),
+            // TODO hide chaptrized if exam is not chapterized
             ExamBarButton(
                 title: Text('Exam Chapterized', style: subtitle2(context)),
                 icon: FaIcon(Icons.collections_bookmark)),
