@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/style.dart';
+import 'package:matric/core/models/exam.dart';
 import 'package:matric/ui/widgets/choice_card.dart';
 import 'package:matric/ui/widgets/title_card.dart';
 
@@ -47,71 +48,4 @@ class ExamPage extends StatelessWidget {
       children: _buildPageContent(),
     );
   }
-}
-
-class ExamModel {
-  String section;
-  String direction;
-  String question;
-  ChoiceModel choices;
-  String table;
-  String image;
-  String paragraph;
-  bool chapterized;
-  int chapter;
-  int grade;
-  String answer; //TODO change answer type to Choices enum
-  int number;
-  String explanation;
-
-  ExamModel({
-    this.section,
-    this.direction,
-    this.question,
-    this.choices,
-    this.table,
-    this.image,
-    this.paragraph,
-    this.chapterized,
-    this.chapter,
-    this.grade,
-    this.answer,
-    this.number,
-    this.explanation,
-  });
-
-  factory ExamModel.fromJson(Map<String, dynamic> examJson) => ExamModel(
-      section: examJson['section'],
-      direction: examJson['direction'],
-      question: examJson['question'],
-      choices: ChoiceModel.fromJson(examJson['choices']),
-      table: examJson['table'],
-      image: examJson['image'],
-      paragraph: examJson['paragraph'],
-      chapterized: examJson['chapterized'],
-      chapter: examJson['chapter'],
-      grade: examJson['grade'],
-      answer: examJson['answer'],
-      number: examJson['number'],
-      explanation: examJson['explanation']);
-}
-
-class ChoiceModel {
-  String choiceA;
-  String choiceB;
-  String choiceC;
-  String choiceD;
-
-  ChoiceModel({
-    this.choiceA,
-    this.choiceB,
-    this.choiceC,
-    this.choiceD,
-  });
-
-  factory ChoiceModel.fromJson(Map<String, dynamic> choiceJson) => ChoiceModel(
-      choiceA: choiceJson['A'],
-      choiceB: choiceJson['B'],
-      choiceC: choiceJson['C'],
-      choiceD: choiceJson['D']);
 }

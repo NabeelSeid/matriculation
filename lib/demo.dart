@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:flutter_html/html_parser.dart';
-import 'package:flutter_html/style.dart';
-import 'package:matric/ui/widgets/choice_card.dart';
+import 'package:matric/core/models/choice.dart';
+import 'package:matric/core/models/exam.dart';
 import 'package:matric/ui/widgets/exam_page.dart';
 import 'package:matric/ui/widgets/page_view_with_indicator/page_view_with_indicator.dart';
-import 'package:matric/ui/widgets/title_card.dart';
 
 class Demo extends StatefulWidget {
   Demo({Key key}) : super(key: key);
