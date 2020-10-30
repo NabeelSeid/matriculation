@@ -19,8 +19,6 @@ class QuestionPage extends StatelessWidget {
           ),
         )
       : null;
-  
-  
 
   List<Widget> _buildPageContent() {
     List<Widget> children = [];
@@ -31,7 +29,12 @@ class QuestionPage extends StatelessWidget {
     Widget paragraph = _buildTitledCard('Paragraph', questionModel.paragraph);
     Widget image = _buildTitledCard('Image', questionModel.image);
     Widget question = _buildTitledCard('Question', questionModel.question);
-    Widget choice = ChoiceCard();
+    Widget choice = questionModel.choices != null
+        ? ChoiceCard(
+            answer: questionModel.answer,
+            choiceModel: questionModel.choices,
+          )
+        : null;
 
     if (section != null) children.add(section);
     if (direction != null) children.add(direction);

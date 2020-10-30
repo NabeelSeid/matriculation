@@ -35,21 +35,25 @@ class _DemoState extends State<Demo> {
           future: DefaultAssetBundle.of(context)
               .loadString("assets/english_2008.json"),
           builder: (_, snapshot) {
+            print(snapshot.data);
             if (snapshot.data != null) {
               examModel = ExamModel.fromJson(json.decode(snapshot.data));
+
+              return PageViewWithIndicator(
+                  bodyPageController: _bodyPageController,
+                  pages: examModel.pages ?? ['1', '2', 'P'],
+                  childern: examModel.questions
+                          .map((question) =>
+                              QuestionPage(questionModel: question))
+                          .toList() ??
+                      [
+                        Html(data: "Hello There"),
+                        Html(data: "Hello There"),
+                        Html(data: "Hello There"),
+                      ]);
             }
-            return PageViewWithIndicator(
-                bodyPageController: _bodyPageController,
-                pages: examModel.pages ?? ['1', '2', 'P'],
-                childern: examModel.questions
-                        .map(
-                            (question) => QuestionPage(questionModel: question))
-                        .toList() ??
-                    [
-                      Html(data: "Hello There"),
-                      Html(data: "Hello There"),
-                      Html(data: "Hello There"),
-                    ]);
+
+            return Container();
           },
         ));
   }

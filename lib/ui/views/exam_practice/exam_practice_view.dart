@@ -38,7 +38,7 @@ class _ExamPracticeViewState extends State<ExamPracticeView> {
                     child: Text(
                         'Why do micro-organisms decompose dead organic matter?'),
                   ),
-                  ChoiceCard(),
+                  // ChoiceCard(),
                   Expanded(child: Container())
                 ],
               ),
