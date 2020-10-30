@@ -1,0 +1,1589 @@
+{
+  "count": 120,
+  "subject": "English",
+  "year": 2008,
+  "questions": [
+    {
+      "direction": "<b>Directions:</b> The following words are NOT in the proper order. When put in the right order, they make correct English sentences. From the given alternatives, choose the one that is correct",
+      "choices": {
+        "D": "Please, you do tell to they what.",
+        "A": "Please, they tell you to do what.",
+        "C": "Please, do what they tell you to.",
+        "B": "Please, you tell they what to do."
+      },
+
+      "answer": "C",
+      "number": 1,
+      "question": "to please what do tell you they.",
+      "explanation": "This question is based on polite command-so a command mostly used or begins with verbs/infinitive/.<br />&#10003; &ensp;Please, do what they tell you to.",
+      "section": "<b>Section one:</b> Word order <b>(1-5)</b>"
+    },
+    {
+      "choices": {
+        "C": "We are for breakfast going to have bread.",
+        "B": "We are going to have for breakfast bread.",
+        "D": "We are going for bread to have breakfast",
+        "A": "We are going to have bread for breakfast."
+      },
+      "answer": "A",
+      "number": 2,
+      "question": "breakfast to bread are have going for we.",
+
+      "explanation": "It is simply a statement in the form of future tense which shows progressive action or planned action. <br />&#10003; &ensp;We are going to have bread for breakfast"
+    },
+    {
+      "explanation": "It is a form of prescription given by a medical doctor. It seems like an order or a guide. <br />&#10003; &ensp;Never take more medicine than you are instructed to.",
+      "question": "medicine take are than instructed you never more to.",
+      "choices": {
+        "C": "You are instructed never to take more than medicine.",
+        "D": "You are never instructed to take more than medicine.",
+        "B": "Never take more medicine than you are instructed to.",
+        "A": "Take more medicine than you are never instructed to."
+      },
+
+      "number": 3,
+      "answer": "B"
+    },
+    {
+      "choices": {
+        "D": "There are apes which could no way be in similar to humans.",
+        "A": "There could be humans which no way are in similar to apes.",
+        "B": "There are no humans which could be in way similar to apes.",
+        "C": "There could be no way in which humans are similar to apes."
+      },
+      "answer": "C",
+      "question": "Way there similar could apes in humans be no which to are.",
+      "number": 4,
+
+      "explanation": "It is a statement which carries truth or fact <br />&#10003; &ensp;There could be no way in which humans are similar to apes.",
+      "grade": 0
+    },
+    {
+      "explanation": "It is a statement in the form of active sentence. i.e Subject + Verb + Object complement <br />&#10003; &ensp;Shame killed our little dog",
+
+      "answer": "B",
+      "choices": {
+        "B": "Shume killed our little dog.",
+        "A": "Our Shume little dog killed.",
+        "D": "Our little dog Shume killed.",
+        "C": "Dog killed our Shume little ."
+      },
+
+      "question": "Shume dog out little killed.",
+      "number": 5
+    },
+    {
+      "choices": {
+        "B": "a d e b c",
+        "C": "d c a e b",
+        "A": "d b e c a",
+        "D": "a d b c e"
+      },
+      "number": 6,
+      "explanation": "d, c, a, e, b <br />&#10003; &ensp;'D' is the topic sentence. In choice 'C' <u>primarily</u> shows the first sequence. In 'a' the word <u>further</u> shows as it is additional & 'b' concludes the paragraph.",
+      "section": "<b>Section Two:- Paragraph Coherence (6-8)</b>",
+      "answer": "C",
+      "question": "a. Further, there aren't as such any places for recreation.<br />b. This means you will have to endure physical hardship.<br />c. Primarily, it is often not easy to find a job that suits you.<br />d. Living in the countryside has a number of disadvantages.<br />e. You also have to walk to get somewhere, even long distances.",
+      "direction": "<b>Direction:</b> When put in the correct order sentence <B>a-e</B> in each of questions <B>6-8</B> make up a complete paragraph. From the alternatives <B>A-D</B> given for each question, choose the letter that contains the correct order of the sentences."
+    },
+    {
+      "explanation": "c, d, b, a, e<br />In this order 'C' is the topic sentence, d, b and a are supporting or developing the idea in the topic sentence and 'e' concludes the idea.",
+      "number": 7,
+      "answer": "A",
+
+      "choices": {
+        "D": "c b d e a",
+        "B": "c b e d a",
+        "C": "b d c b a",
+        "A": "c d b a e"
+      },
+      "question": "a. The most important of these is human creativity.<br  />b. In fact, developing a workable technology requires resources.<br />c. Having a new technology makes life simple and comfortable.<br />d. Unfortunately, however, this is not something readily available.<br />e. People with such ability tremendously contribute to development"
+    },
+    {
+      "answer": "A",
+      "choices": {
+        "B": "a b c d e",
+        "D": "a e b d c",
+        "A": "a b d e c",
+        "C": "a c b d e"
+      },
+      "number": 8,
+      "question": "a. Tourism in some countries has remained static.<br />b. This is because quality service is reportedly poor.<br />c. That left many things disorganized and unattractive.<br />d. What is more, the industry seems to lack effective leadership.<br />e. In others, however it is growing whilst markets are in decline.",
+
+      "explanation": "a, b, d, e, c <br />&#10003; &ensp; The paragraph talks about tourism and why it is static in some countries. Choices b. d, e and c are reasons mentioned sequentially."
+    },
+    {
+      "answer": "0",
+      "explanation": "",
+
+      "passage": "<p><b>i)</b> Oprah Winfrey is thought of as the &#8221;Queen to Talk&#8221; since the mid-1980s. She is the first African American woman to host a national weekday talk show. In addition, Oprah is one of the richest and most powerful African American women in America. Her life story makes her success notable.</p><p><b>ii)</b> Oprah was born on January 29, 1954 on a farm in Kosciusko, Mississippi. She is the product of a brief meeting between a 20 year old Vernon Winfrey and an 18 year old Vernita Lee. Winfrey was in service when Oprah was born. Winfrey, apparently, learned of Oprah's birth when he received a printed baby announcement in the mail with a scribbled note: &#8221;Send clothes!&#8221; Vernita, Oprah's mother, left Mississippi soon after the birth of Oprah, leaving her young child with her maternal grandparents'. Oprah stayed at her grand parents' place until she was six years old.</p><p><b>iii)</b> As a young child, Oprah was raised on the farm in the rural tradition, receiving whippings and harsh chastisement as punishment for wrong doing. At the age of six, she moved to Milwaukee to live with her mother , who was working as a house cleaner. Rarely at home because of her work demands, Vernita had a difficult time providing for the emotional needs of the intelligent high - spirited Oprah.</p><p><b>iv)</b> Several Sources have relayed the creative ways Oprah tried to get her mother's attention. Once, her mother refused to buy her a new pair of eyeglasses- claiming that she couldn't afford it. Oprah then staged a fake burglary at her home. She said that she had been knocked unconscious, and during the ordeal her glasses had broken. Another time, she ran away from home. While on the street, she approached Aretha Franklin's limousine and convinced the singer that she was an abandoned child. Franklin is said to have given her &#36;100. Oprah's last antic involved her frantic attempt to keep a broken puppy. She created a tale about the brave puppy fending off robbers. She even added a bit of realism to the &#8221;scene&#8221; by tossing her mother's jewelry out of the window.</p><p><b>v)</b> At the age of nine, and for several years thereafter, Oprah was sexually abused by a teenaged cousin and then by other relatives and friends. She spoke openly about this on her talk show in 1991. At the time, she offered support and showed empathy to guests and viewers who had gone through similar painful experiences. In an article for Essence, she admitted that she couldn't free herself of the shame she felt until 1990, when she finally admitted, &#8221;I was not responsible for the abuse.&#8221; The molestation Oprah experienced in Milwaukee ended when, at the age of 14, she went to live with her father in Nashville.</p><p><b>vi)</b> While under the care of her father, she flourished and honed many of her communication skills. Oprah's life under her father's care was purposeful and disciplined. Because of this, she credits her father and the time she spent with him and his wife Zelma. She often likes to say her father 'saved' her life. In an interview for Washington Post magazine, she told Jill Nelson that if she hadn't been sent to her father, she would have gone in another direction.</p><p><b>vii)</b> In January 1984, Oprah took over the ailing television talk show AM Chicago. She instantly turned it into a smash hit Her earthy and down-home style won her large audience. In September of 1986, the Oprah Winfrey Show made its national debut Within five months, it was the third-highest-rated show on television behind the game shows of Wheel of Fortune and Jeopardy. In the same year, her show was ranked the number-one talk show. At that time, her show reached between 9 and 10 million people in 192 cities on a daily basis. Since then, Oprah and her show have received many Daytime Emmy awards.</p><p><b>viii)</b> Oprah's talent and energy have brought her success in other areas as well. For example, she is a successful publisher. In 2001, Book magazine named Oprah among the ten powerful people in publishing.</p><p align='right'><b><i>Adapted from the Skilled Reader (2010) Pearson Education, Inc</i></b></p>",
+      "direction": "<b>Directions:</b> Read the following passage carefully and answer the questions <B>9-22</B> according to the information therein. Each question has for choices, <B>A-D</B>.",
+      "section": "<b>Section Three:- Reading Comprehension (9-22)</b>"
+    },
+    {
+      "number": 9,
+      "answer": "C",
+
+      "question": "From the words given below, which one did the author use to refer to <b>sexual abuse</b> in Paragraph v?",
+      "choices": {
+        "D": "painful",
+        "B": "shame",
+        "A": "empathy",
+        "C": "molestation"
+      },
+      "explanation": "In paragraph v the word <u>molestation</u> which means to attack or interfere with a woman or a child sexually refers to sexual abuse"
+    },
+    {
+      "explanation": "Paragraph iv and v.",
+      "answer": "D",
+      "choices": {
+        "D": "To show that she passed through a sense of sufferings.",
+        "B": "To tell us that she had a busy mother.",
+        "A": "To tell that she overcame barriers to be successful.",
+        "C": "To inform readers that she was raised on the farm."
+      },
+
+      "question": "Why does the author narrate Oprah's childhood?",
+
+      "number": 10
+    },
+    {
+      "answer": "C",
+      "explanation": "Paragraph iv.",
+      "choices": {
+        "D": "Failing victim to sexual abuse",
+        "A": "Running away from home",
+        "B": "Keeping a broken puppy",
+        "C": "Seeking attention"
+      },
+
+      "question": "Which one of the following was Oprah's reason to stage a fake robbery?",
+      "number": 11,
+      "grade": 0
+    },
+    {
+      "question": "What does scene as used in ... <i>added a bit of realism to the scene</i> ... (Paragraph iv) refer to?",
+
+      "choices": {
+        "C": "Oprah tossing the jewelry",
+        "D": "the robbers stealing jewelry",
+        "B": "Oprah receiving &#36;100",
+        "A": "the puppy attacking the robbers"
+      },
+
+      "answer": "C",
+      "explanation": "<u>Tossing</u> means to throw lightly or carelessly.",
+      "number": 12
+    },
+    {
+      "explanation": " <u>Compassionate:</u> pity for the suffering of others; great and serious misfortune.",
+      "answer": "A",
+      "choices": {
+        "D": "argumentative",
+        "B": "appreciative",
+        "A": "compassionate",
+        "C": "apologetic"
+      },
+      "number": 13,
+
+      "question": "The tone of the author can best be described as:",
+      "grade": 0
+    },
+    {
+      "answer": "C",
+      "explanation": "<u>Remarkable</u> is synonym (similar) to notable. <br />&#10003; &ensp; Notable means worthy of notice or attention.",
+      "question": "As used in Paragraph i, which word can be the best similar word to <b>notable</b>?",
+
+      "choices": {
+        "A": "surprising",
+        "D": "ambitious",
+        "B": "interesting",
+        "C": "Remarkable"
+      },
+
+      "number": 14
+    },
+    {
+      "answer": "A",
+
+      "explanation": "A and D are answers.",
+
+      "number": 15,
+      "question": "According to Paragraph i, which one of the following sentences is <b>true</b>?",
+      "choices": {
+        "D": "Oprah is the first woman to host a national weekday talk show in America.",
+        "B": "Oprah thought about being a -Queen of Talk- in the 1990s.",
+        "A": "There are rich and powerful African American women other than Oprah.",
+        "C": "Oprah is an African American who became a queen in the 1900s"
+      }
+    },
+    {
+      "question": "What does the statement <i>She is the product of a brief meeting between a 20 year old Vernon Winfrey and an 18-year-old Vernita Lee</i> (Paragraph ii), imply?",
+
+      "choices": {
+        "D": "Oprah's parents were living in different pi aces when she was born.",
+        "C": "Oprah's parents were not steadily going out together.",
+        "A": "Oprah's parents lived together for quite some time.",
+        "B": "Oprah's parents had been intimate when she was conceived."
+      },
+      "number": 16,
+
+      "answer": "A",
+      "explanation": "<u>Brief meeting</u> means lasting for a short time."
+    },
+    {
+      "question": "What does ordeal as used in ... <i>during the ordeal her</i>... (Paragraph iv) refer to?",
+      "number": 17,
+      "choices": {
+        "C": "getting her glasses broken",
+        "A": "getting knocked unconscious",
+        "B": "staging a fake robbery",
+        "D": "running away from home"
+      },
+      "explanation": "<u>Ordeal</u> means a difficult or painful experience, hardship trouble, severe test of character.",
+      "answer": "C",
+      "grade": 0
+    },
+    {
+      "answer": "B",
+      "choices": {
+        "A": "having a busy mother",
+        "B": "falling victim to sexual abuse",
+        "C": "keeping a broken puppy",
+        "D": "running away from home"
+      },
+      "explanation": "",
+      "number": 18,
+      "question": "Which one of the following was the cause of the shame referred in Paragraph v?",
+      "chapter": 0
+    },
+    {
+      "explanation": "thin five months after September means <b>February</b>.",
+      "choices": {
+        "B": "September",
+        "D": "November",
+        "A": "August",
+        "C": "January"
+      },
+
+      "question": "Which month can be inferred from Paragraph vii as a month when Oprah's show was rated the third highest on television?",
+      "answer": "0",
+
+      "number": 19
+    },
+    {
+      "answer": "A",
+
+      "choices": {
+        "B": "barking",
+        "A": "attacking",
+        "C": "attracting",
+        "D": "grunting"
+      },
+      "number": 20,
+      "question": "What does <b>fending off</b> mean as used in ... <i>the brave puppy fending off robbers</i> ... (Paragraph iv)?",
+      "explanation": "<u>Fending off</u> means deflect, fight off, keep away."
+    },
+    {
+      "answer": "B",
+      "question": "Which of the statements below best summarizes the central idea of the passage?",
+      "explanation": "Paragraph I.",
+      "number": 21,
+      "choices": {
+        "C": "Oprah Winfrey is a rich and powerful woman.",
+        "B": "Oprah Winfrey is a queen of talk show.",
+        "D": "Oprah Winfrey's life and success are interesting.",
+        "A": "Oprah Winfrey is a successful African American woman."
+      }
+    },
+    {
+      "explanation": "Paragraph iv and v discuss the challenges Oprah faced and the attempts she made to overcome them.",
+
+      "choices": {
+        "C": "ii and iii",
+        "D": "iv and vii",
+        "A": "iii and vi",
+        "B": "iv and v"
+      },
+      "number": 22,
+      "answer": "B",
+      "question": "Which two paragraphs discuss, in particular, the challenges Oprah faced and the attempts she made to overcome them?"
+    },
+    {
+      "section": "<b>Section Four: Vocabulary (23-39)<br />Completion (23-32) </b>",
+      "number": 23,
+      "explanation": "<u>Maladjustment</u> / unable to adapt to the demands of a social environment and behave in acceptable way/ not happily adapted to one circumstance.<br /><i>E.g: A schools for maladjusted children</i>",
+
+      "choices": {
+        "D": "misadjustment",
+        "A": "maladjustment",
+        "B": "unadjustment",
+        "C": "inadjustent"
+      },
+      "answer": "A",
+      "direction": "<b>Directions:</b> Questions <B>23-32</B> are in complete sentences. There are four alternative words/phrases, <B>A-D</B>, given below each question. Choose the one that best completes each sentence.",
+      "question": "Some students develop a problem of __________ to the university environment They should be properly counseled."
+    },
+    {
+      "explanation": "<u>lmproper</u> means unacceptable, unfitting, wrong, not correct in appropriate, morally wrong, not conforming to social convention<br /><i>E.g: Don't snow improper behavior to your elders.</i>",
+      "answer": "C",
+      "question": "It is __________  for children to talk to adults the way that little girl did. She is rude.",
+
+      "choices": {
+        "D": "inproper",
+        "B": "ill-proper",
+        "C": "improper",
+        "A": "unproper"
+      },
+      "number": 24
+    },
+    {
+      "explanation": "<u>Respect</u> (Noun)the feeling of admiration, polite behavior a high opinion of.<br /><i>E.g. Many young peopled show lath respects for traditionally value. Students should show respect for their teachers.</i>",
+      "question": "You did not show him any __________. Don't forget he is the boss.",
+
+      "choices": {
+        "D": "respect",
+        "C": "resectfulness",
+        "B": "respection",
+        "A": "respectance"
+      },
+      "answer": "A",
+      "number": 25,
+      "chapter": 0
+    },
+    {
+      "choices": {
+        "D": "beautifulness",
+        "A": "beauty",
+        "C": "beautifying",
+        "B": "beautification"
+      },
+      "answer": "A",
+      "question": "They were engaged in the __________ of the city these days. Everything looks very great now.",
+
+      "explanation": "A pleasant or unattractive nature.",
+      "number": 26,
+      "chapter": 0
+    },
+    {
+      "question": "Haven't you __________ anything yet? I guess that one is wonderful.",
+      "answer": "A",
+
+      "number": 27,
+      "explanation": "<u>Picked out</u> means to distinguish from people or things around.",
+      "choices": {
+        "B": "picked down",
+        "D": "picked up",
+        "C": "picked in",
+        "A": "picked out"
+      },
+      "grade": 0
+    },
+    {
+      "explanation": "<u>Run over</u> means to knock a person or something.<br /><i>E.g: I ran over a dog last Monday</i>",
+
+      "choices": {
+        "D": "ran behind",
+        "C": "ran over",
+        "B": "ran along",
+        "A": "Ran into"
+      },
+      "answer": "C",
+      "number": 28,
+      "question": "I heard Shibiru __________ an elderly gentleman and he is now under the police custody."
+    },
+    {
+      "explanation": "<u>Put up</u> means to jot down, record, write down.<br /><i>E.g: They put up all their problems to the officials to get solution.</i>",
+      "question": "We __________ all our complains to the person in charge, but he doesn't seem to care. We don't understand what good governance means.",
+      "answer": "C",
+
+      "number": 29,
+      "choices": { "B": "down", "A": "put out", "D": "put over", "C": "put up" }
+    },
+    {
+      "answer": "C",
+
+      "explanation": "<u>Pleasant</u> (adj) giving pleasure to the mind.<br /><i>E.g: Please try to be pleasant to your school friends.</i>",
+      "number": 30,
+      "choices": {
+        "D": "friendly",
+        "B": "relaxed",
+        "C": "pleasant",
+        "A": "gracious"
+      },
+      "question": "Everyone was so nervous and we had to leave hurriedly. There was no one __________ and calm."
+    },
+    {
+      "choices": {
+        "A": "exhausting",
+        "C": "boring",
+        "B": "uninspiring",
+        "D": "demanding"
+      },
+      "number": 31,
+      "answer": "A",
+
+      "explanation": "<u>Exhausting</u> (v) to make some one very tired.<br /><i>E.g: He was exhausted by the long trip.<br />Our patience was finally exhausted due to the long speech</i>",
+      "question": "It was all tiring, but we had no other option. I really hate such __________ tasks."
+    },
+    {
+      "choices": {
+        "A": "unaccuracy",
+        "B": "misaccuracy",
+        "C": "inaccuracy",
+        "D": "unaccurateness"
+      },
+      "number": 32,
+      "answer": "C",
+      "question": "There is a lot of __________ in the document the typed yesterday. You will need to proofread it",
+      "explanation": "<u>Inaccuracy</u> having errors or not correct.<br /><i>E.g: The map of the area was inaccurate when we looked it thorough</i>"
+    },
+    {
+      "choices": {
+        "D": "disaster",
+        "B": "problem",
+        "A": "drought",
+        "C": "danger"
+      },
+      "number": 33,
+      "question": "Natural <u>calamity</u> has become a challenge to most nations in developing countries. Mankind can no more ignore the issue.",
+      "explanation": "<u>Calamity</u> means disaster, bad accident or crash great and serious misfortune.<br /><i>E.g: The earth quake was the worst calamity in the country's historic.</i>",
+      "answer": "D",
+
+      "direction": "<b>Directions:</b> Questions <B>33-39</B> each has an underlined word or phrase. There are four alternatives <B>A-D</B> given after each sentence. Choose one word or phrase that best keeps the meaning of the given sentence if substituted for the underlined word or phrase."
+    },
+    {
+      "explanation": "<u>Slim</u> means slender, thin, slim and graceful.<br /><i>E.g: My sister has a slim waist which attracts everyone</i>",
+
+      "number": 34,
+      "choices": { "D": "tall", "C": "slender", "A": "huge", "B": "pretty" },
+      "question": "1 know she is not very <u>slim</u> but she is not all that bulky either.",
+      "answer": "C"
+    },
+    {
+      "explanation": "<u>In time</u> means earlier than the time mentioned, sooner.",
+
+      "choices": {
+        "D": "exactly",
+        "C": "late",
+        "B": "in time",
+        "A": "on time"
+      },
+      "answer": "B",
+      "question": "You came a little <u>early</u> for the appointment",
+      "number": 35
+    },
+    {
+      "explanation": "<u>Prohibit</u> means to forbid.<br /><i>E.g: Parking without a permit is prohibited.</i>",
+      "answer": "C",
+      "number": 36,
+      "choices": {
+        "D": "destroyed",
+        "B": "disestablished",
+        "A": "banished",
+        "C": "prohibited"
+      },
+
+      "question": "DDT has been <u>banned</u> in many parts of the world, but it is still in use in Africa."
+    },
+    {
+      "question": "You know this is a <u>literate</u> society.",
+      "answer": "D",
+      "number": 37,
+
+      "explanation": "<u>Educated</u> means to do something expertly and well, trained, experienced.",
+      "choices": {
+        "D": "educated",
+        "B": "intelligent",
+        "C": "skilled",
+        "A": "Informed"
+      },
+      "grade": 0
+    },
+    {
+      "explanation": "<u>Mean</u> means selfish, thinking first of one's own interests needs, without concern for others.<br /><i>E.g: Don't be selfish to share what you get from your friend</i>",
+      "choices": {
+        "A": "selfish",
+        "B": "rude",
+        "C": "unsociable",
+        "D": "unfriendly"
+      },
+      "question": "These people are so <u>mean</u> that they hardly give anything to charity. They are different from the other village.",
+      "answer": "A",
+
+      "number": 38
+    },
+    {
+      "number": 39,
+      "explanation": "<u>Go over</u>  means to look at carefully, to inspect, to examine the details.<br /><i>E.g: Go over your works carefully before you hand it in.</i>",
+
+      "question": "I will send you the documents to <u>review</u> them as quickly as you can. They expect our comments early next week.",
+      "answer": "A",
+      "choices": {
+        "D": "get into",
+        "C": "get over",
+        "A": "go over",
+        "B": "go into"
+      },
+      "chapter": 0
+    },
+    {
+      "explanation": "Every is used with singular countable as to refer to individual people or things.",
+      "question": "The purchasers should be accountable for what has happened. __________ piece is faulty.",
+
+      "answer": "D",
+      "section": "<b>Section five: Grammar (40-65)</b>",
+      "direction": "<b>Directions:</b> Questions <b>40-65</b> are incomplete sentences. There are four alternative words or phrases, <b>A-D</b>, given below each question. Choose the word/phrase that best completes the sentence.",
+      "number": 40,
+      "choices": { "C": "Both", "B": "Neither", "A": "All", "D": "Every" }
+    },
+    {
+      "answer": "C",
+      "choices": { "A": "on", "D": "for", "C": "to", "B": "with" },
+
+      "question": "It seems she wants me to do her a favor. You know, she has never been as nice __________ me as she is.",
+      "explanation": "As: as is used to mean similar to.",
+      "number": 41,
+      "grade": 0
+    },
+    {
+      "choices": {
+        "D": "walking",
+        "A": "roaming",
+        "B": "touring",
+        "C": "visiting"
+      },
+      "number": 42,
+
+      "question": "I heard she became a __________ ambassador. Lucky her! She would tour countries in the world.",
+
+      "answer": "B",
+      "explanation": "Touring means a brief visit to a place."
+    },
+    {
+      "explanation": "Talking watches.",
+      "answer": "B",
+
+      "choices": {
+        "C": "feeling",
+        "D": "touching",
+        "B": "talking",
+        "A": "speaking"
+      },
+
+      "number": 43,
+      "question": "Visually impaired people usually use __________ watches. That makes life easy for them."
+    },
+    {
+      "question": "Marijuana is sold __________ in this country. You can even be jailed if you are found with it.",
+
+      "explanation": "Nowhere (ad) means not at/ to any place <br /><i>Ex- There was nowhere for me to sit.</i>",
+      "choices": {
+        "C": "nowhere",
+        "A": "anywhere",
+        "B": "somewhere",
+        "D": "everywhere"
+      },
+      "answer": "C",
+      "number": 44,
+      "grade": 0
+    },
+    {
+      "number": 45,
+      "answer": "B",
+      "explanation": "Never means at no time in the past or the future, on no occasion.<br /><i>E.g: Never in of my aft have I heard such nonsense</i>",
+
+      "choices": { "A": "always", "C": "ever", "B": "never", "D": "sometimes" },
+      "question": "Some people __________ set foot out of their local town. They live and die just there."
+    },
+    {
+      "choices": {
+        "C": "could be dangerous",
+        "B": "is the case",
+        "A": "is not true",
+        "D": "is quite convincing"
+      },
+      "number": 46,
+      "answer": "D",
+      "question": "It is claimed that air pollution caused by developed nations is affecting the lives of millions in developing countries. I would, however, think this __________",
+
+      "explanation": "Quite convincing means it makes believe or persuades."
+    },
+    {
+      "question": "Dad doesn't feel that globalization is just another way for rich countries to exploit the poor ones. He always says __________",
+
+      "answer": "C",
+      "explanation": "",
+
+      "choices": {
+        "B": "No son, globalization is a bad idea.",
+        "C": "Son, globalization is a great idea.",
+        "A": "Hey, globalization has left us poorer.",
+        "D": "Yes son, globalization is exploitative."
+      },
+      "number": 47
+    },
+    {
+      "number": 48,
+      "answer": "B",
+
+      "choices": {
+        "C": "No, I come from Ambo originally.",
+        "D": "Are you a tourist? How did you go there yourself?",
+        "A": "No, I used to study in Ambo University.",
+        "B": "Are you s serious? You haven't"
+      },
+
+      "question": "Genet: Haven't I seen you somewhere around Ambo? <br />Almaz: What? __________",
+      "explanation": "That is to mean you haven't seen me around Ambo."
+    },
+    {
+      "explanation": "Both, and followed by plural verb 'have'",
+      "answer": "A",
+
+      "number": 49,
+
+      "choices": { "C": "All", "B": "Nor", "D": "Either", "A": "Both" },
+      "question": "__________ you and your wife have concocted this. I have never said that."
+    },
+    {
+      "number": 50,
+      "answer": "D",
+      "explanation": "Future intention is used.",
+
+      "question": "They say George is selling his new car. I __________ him a call and ask.",
+
+      "choices": {
+        "A": "ought to give",
+        "B": "am giving",
+        "C": "must give",
+        "D": "will give"
+      }
+    },
+    {
+      "answer": "A",
+      "question": "The police __________ him in the area so many times and now they have him as a primary suspect.",
+
+      "choices": { "A": "have seen", "D": "had seen", "C": "see", "B": "saw" },
+
+      "explanation": "Here the present perfect expresses an action that began at definite time in the past and continued up to now.",
+      "number": 51
+    },
+    {
+      "explanation": "It is a type of conditional clause, so in the if; not or unless clause the verb is in simple tense i.e. solve. The main clause takes future or ability (can) to make sense.",
+      "choices": { "D": "ought", "B": "might", "C": "can", "A": "do" },
+      "answer": "C",
+      "question": "Unless we solve our internal problem, we __________ not think of challenging the enemy.",
+
+      "number": 52,
+      "chapter": 0
+    },
+    {
+      "choices": { "B": "could", "D": "will", "A": "may", "C": "should" },
+
+      "explanation": "Could shows possibility.",
+
+      "question": "I wonder if I __________ still see alive. She has been ill for 10 years.",
+      "answer": "B",
+      "number": 53
+    },
+    {
+      "number": 54,
+
+      "choices": {
+        "A": "very talented",
+        "B": "more talented",
+        "C": "most so talented",
+        "D": "most talented"
+      },
+      "answer": "D",
+      "explanation": "Superlative form is used.<br /><i>Most + adj + (of)all (plural noun)</i>",
+      "question": "I have no doubt he would win the scholarship. He is the __________ of all."
+    },
+    {
+      "explanation": "Ever since shows action continued up to now. Present perfect is used.",
+
+      "choices": {
+        "B": "won'thave seen",
+        "A": "haven't seen",
+        "D": "didn't see",
+        "C": "have seen"
+      },
+      "number": 55,
+      "question": "We studied together at college, but I __________ her ever since.",
+
+      "answer": "A"
+    },
+    {
+      "answer": "A",
+      "number": 56,
+
+      "explanation": "Ago shows action completed at a particular/ definite time in the past",
+      "question": "My sister __________ me a parcel two weeks ago, but I received it only yesterday.",
+      "choices": {
+        "D": "had been sent",
+        "B": "had sent",
+        "C": "has sent",
+        "A": "sent"
+      },
+      "chapter": 0
+    },
+    {
+      "explanation": "Future perfect tense is used something will already complete before a time in the future.",
+      "number": 57,
+
+      "choices": {
+        "A": "would marry",
+        "C": "will have married",
+        "D": "had married",
+        "B": "has married"
+      },
+      "question": "By the time you graduate, she __________ someone else and has children. Better forget her.",
+      "answer": "C"
+    },
+    {
+      "explanation": "Conditional type 11/ unlikely condition/ and we use would + inf in the main clause.",
+      "choices": { "D": "could", "C": "shall", "A": "would", "B": "will" },
+      "answer": "A",
+      "question": "If you were to be a teacher, you __________ have to join a college of education and take the necessary training. You can't jump into the profession from the street.",
+      "number": 58,
+
+      "chapter": 0
+    },
+    {
+      "explanation": "This is a planned action in the future.",
+
+      "question": "Kebede and Yeshi are looking for a house to buy. I think, they __________ soon.",
+      "answer": "B",
+      "choices": {
+        "C": "may be marrying",
+        "A": "marry",
+        "B": "are getting married",
+        "D": "will marry"
+      },
+
+      "number": 59
+    },
+    {
+      "explanation": "As soon as means immediately.",
+      "question": "Press the button in front of you __________ you hear the bell ring. If you could do it before anyone, the money will be yours.",
+      "answer": "B",
+
+      "number": 60,
+      "choices": {
+        "B": "as soon as",
+        "C": "as quickly",
+        "D": "not too late",
+        "A": "while"
+      }
+    },
+    {
+      "answer": "B",
+      "choices": {
+        "B": "so as to",
+        "A": "so that to",
+        "D": "in order that to",
+        "C": "because of to"
+      },
+
+      "explanation": "It shows purpose or the intention of doing something.",
+      "question": "He sold his old house __________ buy a new one. Unfortunately, however, it didn't work out and now he has no house.",
+      "number": 61
+    },
+    {
+      "explanation": "It shows what comes first.",
+      "number": 62,
+      "answer": "D",
+      "choices": { "A": "while", "C": "when", "B": "after", "D": "before" },
+
+      "question": "They were all having lunchyou came. It was a bad time ."
+    },
+    {
+      "explanation": "It shows result as there is comma in the first sentence.",
+      "question": "She is genuinely broke, __________ we have to contribute some for her. Come on, she is our friend.",
+      "number": 63,
+      "answer": "D",
+      "choices": {
+        "B": "so that",
+        "C": "consequently",
+        "D": "so",
+        "A": "because of"
+      },
+
+      "grade": 0
+    },
+    {
+      "choices": {
+        "C": "next of",
+        "D": "net to",
+        "A": "by front of",
+        "B": "behind to"
+      },
+      "answer": "D",
+
+      "number": 64,
+      "question": "Listen! She is the one sitting __________ Ali. Go and get her.",
+
+      "explanation": "It shows position"
+    },
+    {
+      "choices": { "C": "will", "A": "ought to", "D": "can", "B": "must" },
+
+      "answer": "A",
+      "number": 65,
+      "explanation": "Ought to and should show moral obligation.",
+      "question": "Each one of us __________ help those affected by the drought. It is immoral to leave them to starve."
+    },
+    {
+      "explanation": "Shows additional fault of the student",
+      "direction": "<b>Directions:</b> Questions <B>66-69</B> are presented in a form of a dialogue. The part said by one of the speakers is given, and a blank space is left for the other. For each of the blank spaces, four alternative answers, <B>A-D</B>, are given. Choose the one that is most appropriate to complete the dialogue.",
+      "choices": {
+        "B": "Not only that! He also stole a book.",
+        "C": "No one in the class does that.",
+        "D": "He comes from Dodoo School.",
+        "A": "Why does one steal a bag?"
+      },
+      "answer": "B",
+      "question": "Shuru: He stole his friend's bag. How come that we have this kind of student?<br />Helen: ______________________",
+
+      "number": 66,
+      "section": "<b>Section six: Communicative Activities (66-99)</b>",
+      "grade": 0
+    },
+    {
+      "explanation": "Expressing agreement (It is true).",
+      "choices": {
+        "B": "Are you saying he is handsome?",
+        "C": "How do you know that? Look at him.",
+        "A": "He is Aster's boyfriend. Isn't he?",
+        "D": "It is true. Many girls like him, don't they?"
+      },
+      "question": "Alambo: He is really handsome.<br />Awando: ______________________",
+
+      "answer": "D",
+      "number": 67,
+      "grade": 0
+    },
+    {
+      "question": "Shitu: ______________________ <br />Bosen: They also like dorowot",
+      "choices": {
+        "C": "How about vegetables?",
+        "B": "Do they eat injera?",
+        "A": "I am making kitfo for them.",
+        "D": "Is it true they don't eat Shiro?"
+      },
+
+      "number": 68,
+      "answer": "A",
+      "explanation": "'Also' shows what they like in addition to something /kitfo/"
+    },
+    {
+      "answer": "D",
+
+      "choices": {
+        "B": "How much money do we have to spend if we fly?",
+        "D": "I don't like it either. We can hire a four- wheel drive.",
+        "C": "I also think taking a bus would be uncomfortable.",
+        "A": "Flying is what many people don't like."
+      },
+      "question": "Biftu: Gutu doesn't like the idea of flying there.<br />Haile: ______________________",
+
+      "explanation": "That is negative addition to negative remark.<br /><i>subject + neg. aux + either</i>",
+      "number": 69
+    },
+    {
+      "question": "Tamiru: I think we've met before. Haven't we?<br />Girum: ______________________",
+
+      "choices": {
+        "C": "Have we? Alright, nice to meet you.",
+        "B": "At Ayele's party? You're right",
+        "A": "Glad meeting you. Of course, at Ayele's.",
+        "D": "Yes we have. How do you do these days?"
+      },
+      "explanation": "It is answer to a tag question.",
+      "number": 70,
+
+      "answer": "D"
+    },
+    {
+      "number": 71,
+      "choices": {
+        "D": "Dad. That one is my teacher, Mr. Alemu.",
+        "C": "Dad. Mr. Alemu is my teacher.",
+        "A": "Dad. This is my teacher, Mr. Alemu.",
+        "B": "This is my Dad, Mr. Alemu."
+      },
+      "question": "Son: ______________________<br />Dad: Nice to meet you, Mr. Alemu.",
+
+      "explanation": "It is an example of introducing someone.",
+      "answer": "A",
+      "chapter": 0
+    },
+    {
+      "answer": "C",
+      "number": 72,
+
+      "explanation": "Funky-very modern, fashionable.<br />Weird-strange, sometimes frightening, not usual. Expresses disliking something.",
+
+      "question": "Sosina: Do you like that funky hairstyle?<br />Hirut: ______________________",
+      "choices": {
+        "C": "Gosh! It is so weird to me.",
+        "A": "I see so many girls wearing it",
+        "D": "It is all over now! What fashion is that?",
+        "B": "Mom always makes fun of such a style."
+      }
+    },
+    {
+      "answer": "D",
+
+      "explanation": "It shows that the second person expressed his opinion with the complain of passengers.",
+      "choices": {
+        "B": "You can say that again. They are air-conditioned.",
+        "D": "Passengers complain that they are too slow.",
+        "A": "Right They surely solved transportation problems.",
+        "C": "How much do they charge to use them?"
+      },
+      "question": "Mamo: Aren't those light trains so comfortable?<br />Friend: ______________________",
+      "number": 73
+    },
+    {
+      "question": "Alem: The report is not comprehensive.<br />Ululu: ______________________",
+
+      "explanation": "Comprehensive - includes everything or nearly everything, It expresses certainty.",
+      "answer": "D",
+      "number": 74,
+
+      "choices": {
+        "D": "Certainly. Send it back to her.",
+        "C": "That is true. It has no focus at all.",
+        "B": "I know, it is not easy to understand.",
+        "A": "Sure. The language is really terrible."
+      }
+    },
+    {
+      "choices": {
+        "C": "Sure. The book, I think, is interesting.",
+        "A": "Alright It may not be as such useful.",
+        "B": "How much does a book cost around here?",
+        "D": "I think it is a book on modern management"
+      },
+
+      "question": "Kuma: They want us to buy the book. Let us go and get it<br />Halefom: ______________________",
+      "number": 75,
+
+      "answer": "A",
+      "explanation": "To mean it is not that much important"
+    },
+    {
+      "question": "Yodit: Would you like to join n us? We're having a trip to Harar.<br />Fraol: ______________________",
+      "number": 76,
+      "choices": {
+        "D": "I am afraid, you are driving.",
+        "A": "Is Harar so beautiful?",
+        "C": "I would rather go to Lalibela.",
+        "B": "Who proposed the idea?"
+      },
+      "answer": "C",
+      "explanation": "Preference or choice or desire or interest is shown.",
+
+      "grade": 0
+    },
+    {
+      "number": 77,
+      "choices": {
+        "B": "The weekend is going to be rainy.",
+        "A": "No doubt! She has her seat confirmed.",
+        "D": "They have prepared a lot of things to welcome her.",
+        "C": "I think she is taking a plane to change at Dubai."
+      },
+      "question": "Kuku: Are you sure she is arriving this weekend?<br />Eleni: ______________________",
+      "answer": "A",
+
+      "explanation": "She is assuring the arrivals saying 'no doubt'.",
+      "chapter": 0
+    },
+    {
+      "number": 78,
+      "explanation": "The second speaker doesn't exactly know the schedule. (To be sure or not sure)",
+      "question": "Student: Are we having an exam next week?<br />Teacher: ______________________",
+
+      "choices": {
+        "A": "How many units have we done?",
+        "D": "I am not sure yet, but you might.",
+        "C": "Your result last time was so good.",
+        "B": "In fact, exams are approaching."
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Wife: ______________________<br />Husband: Did I hear on the radio that he is already back?",
+
+      "answer": "D",
+      "choices": {
+        "D": "The PM will be leaving tomorrow.",
+        "B": "The PM is planning to visit Arba Minch.",
+        "A": "Sorry! What did you say?",
+        "C": "They say the PM is out of country."
+      },
+      "number": 79,
+      "explanation": "He is already back means he has already gone to abroad."
+    },
+    {
+      "answer": "A",
+      "number": 80,
+      "choices": {
+        "A": "Is it made of cotton or woof?",
+        "B": "Why not? Get the jumper as well.",
+        "D": "Are skirts more comfortable than trousers?",
+        "C": "Skirts are less expensive than trousers."
+      },
+
+      "explanation": "The second speaker wants to know the material out of which it is made.",
+      "question": "Ayantu: I want to buy that skirt<br />Sibilu: ______________________"
+    },
+    {
+      "question": "Molla: It is getting late. Let us go.<br />Yore: ______________________",
+
+      "number": 81,
+      "answer": "A",
+      "explanation": "That is assuring what has been said.",
+
+      "choices": {
+        "B": "Yes, let us save our time.",
+        "D": "It will be seven o'clock very soon.",
+        "C": "Is the chairman coming as well?",
+        "A": "Sure, they like punctuality."
+      }
+    },
+    {
+      "choices": {
+        "B": "Shall we see a doctor?",
+        "D": "What is the cause of it?",
+        "C": "Should we ignore it?",
+        "A": "What shall we do?"
+      },
+
+      "answer": "B",
+
+      "explanation": "It is seeking advice to visit a doctor.",
+      "question": "Aberash: She has a bad backache. <u>                    </u><br />Nigist:Of course, you should. Give it no time.",
+      "number": 82
+    },
+    {
+      "answer": "D",
+      "question": "Alene: The roof is leaking. What shall I do?<br />Nigusu: ______________________",
+
+      "choices": {
+        "A": "I know. It will be raining soon.",
+        "D": "May be, find someone who can fix it",
+        "B": "No wonder. This is a very old house.",
+        "C": "I thought it was also leaking last year."
+      },
+
+      "explanation": "Asking advice to do something.",
+      "number": 83
+    },
+    {
+      "question": "Elias: You should do your homework, son.<br />Ululu: ______________________",
+
+      "number": 84,
+      "choices": {
+        "A": "Doing homework takes a lot of time.",
+        "D": "My friend doesn't like doing his homework.",
+        "B": "That is fine, but let me have a snack first",
+        "C": "My friend can answer all the questions."
+      },
+      "explanation": "It is the form of giving advice. Should, ought to and had better are the forms of giving advice.",
+
+      "answer": "B"
+    },
+    {
+      "number": 85,
+      "question": "Yonas: Shall we lend her some money, please?<br />Wife: ______________________",
+
+      "explanation": "To lend means to give in the form of returning. Ridiculous - deserving to be laughed at, absurd unreasonable.",
+      "answer": "C",
+      "choices": {
+        "C": "That is ridiculous! She didn't pay back the last one.",
+        "D": "A cooker would cost her no less than birr 10,000.",
+        "B": "How much did they pay her for the painting?",
+        "A": "She can't be serious. She should be joking."
+      }
+    },
+    {
+      "number": 86,
+      "choices": {
+        "B": "Sorry, I am a stranger myself.",
+        "A": "You mean from here or ...?.",
+        "C": "Lots of people ask this question.",
+        "D": "It could be in a walking distance."
+      },
+      "answer": "B",
+
+      "question": "You:How can I get to the Ministry of Education?<br />Driver: ______________________",
+      "explanation": "Asking direction and replying."
+    },
+    {
+      "number": 87,
+
+      "explanation": "Asking someone for invitation.",
+      "choices": {
+        "C": "Who is going for lunch now?",
+        "A": "I would rather do it for dinner.",
+        "B": "I think, she will come?",
+        "D": "I am afraid, we have no money."
+      },
+      "question": "Yodit: We're going out for lunch. Would you come?<br />Sara: ______________________",
+      "answer": "A"
+    },
+    {
+      "choices": {
+        "C": "Could you buy me a battery for my watch?",
+        "B": "Can I use your camera, please?",
+        "A": "Shall I tell you a secret?",
+        "D": "Could you do me a favor, please?"
+      },
+      "number": 88,
+      "explanation": "Asking someone to do something.",
+
+      "answer": "D",
+      "question": "Adam: ______________________<br />Mary: My pleasure. Just tell me what you want"
+    },
+    {
+      "number": 89,
+      "question": "Yerom: May I give her my mobile phone?<br />Wirtu: ______________________",
+      "explanation": "It is yes or no question and the reply is negative.",
+      "answer": "A",
+
+      "choices": {
+        "C": "She has lost everything",
+        "D": "Does she buy a mobile",
+        "B": "That is new. Isn't it?",
+        "A": "No way! Are you crazy?"
+      },
+      "grade": 0
+    },
+    {
+      "choices": {
+        "C": "Did you also win one last yea r?",
+        "D": "Girgiro! I also bought the ticket",
+        "B": "Five million! Are you kidding?",
+        "A": "Lottery is for lucky people."
+      },
+
+      "question": "Girgiro: I won five million in a lottery.<br />Lomi: ______________________",
+      "explanation": "It is admiring and appreciate his good luck.",
+      "number": 90,
+
+      "answer": "B"
+    },
+    {
+      "number": 91,
+
+      "explanation": "It is asking someone to do a favor.",
+
+      "question": "Jembere:Sorry Sir! We close at 5:00 pm.<br />Gashe: ______________________",
+      "choices": {
+        "D": "I need some money for my shopping.",
+        "C": "What time did you close today?",
+        "B": "My friend said you were open.",
+        "A": "Come on! It is only two minutes after 5:00."
+      },
+      "answer": "A"
+    },
+    {
+      "answer": "C",
+      "question": "Muse: Have you heard that Belete was released?<br />Shoa: ______________________",
+      "number": 92,
+      "choices": {
+        "A": "I know. He severely criticizes the system.",
+        "D": "Everybody likes Belete, I suppose.",
+        "B": "Is Belete a businessman by profession?",
+        "C": "What good news! When was that?"
+      },
+      "explanation": "It is informing someone a good news.",
+      "chapter": 0
+    },
+    {
+      "question": "Balemo: What would you do if you see friends eating junk?<br />Gedlu: ______________________",
+      "choices": {
+        "C": "Why don't they eat what they can find?",
+        "A": "Come on, they shouldn't do that?",
+        "D": "The government should feed such people.",
+        "B": "Perhaps take them home and feed them."
+      },
+
+      "answer": "A",
+      "number": 93,
+      "explanation": "Junk means useless stuffs, trash, rubbish. So it is really annoying"
+    },
+    {
+      "question": "Yoyo: How long does it take to Dire Dawa?<br />Yaya: ______________________",
+      "choices": {
+        "A": "It depends on your driving.",
+        "B": "Dire Dawa is very far.",
+        "D": "It is around 500 kilometers.",
+        "C": "Not more than fifty birr."
+      },
+      "explanation": "He asked the period of arrival at Dire Dawa. How long shows duration.",
+      "answer": "A",
+      "number": 94,
+      "chapter": 0
+    },
+    {
+      "question": "Berhan: How come that you look older than your dad?<br />Micky: ______________________",
+
+      "explanation": "",
+      "choices": {
+        "C": "Because he died when he was only 35.",
+        "B": "No, I don't look as old as you think.",
+        "D": "You know he died only two years ago.",
+        "A": "I think my mum is also very young."
+      },
+      "answer": "B",
+
+      "number": 95
+    },
+    {
+      "number": 96,
+      "choices": {
+        "B": "Why don't you listen? That is really rude!",
+        "D": "Would you mind copying the notes?",
+        "A": "Tell me, what is this boy doing?",
+        "C": "Why do students disturb the class?"
+      },
+
+      "answer": "B",
+      "question": "Teacher: <u>                            </u><br />Student: Teacher, it is him talking.",
+      "explanation": ""
+    },
+    {
+      "question": "Rah el: I received my computer back.<br />Cheru: ______________________",
+      "answer": "C",
+
+      "explanation": "",
+      "number": 97,
+      "choices": {
+        "B": "You want it for the assignment.",
+        "C": "he has also taken my computer.",
+        "A": "Computers are very useful.",
+        "D": "No! You know she wants it."
+      }
+    },
+    {
+      "explanation": "Advising what he should do.",
+      "answer": "B",
+
+      "choices": {
+        "A": "Why is a report important?",
+        "B": "This is unacceptable. You should penalize her!",
+        "C": "Why didn't you write it on time?",
+        "D": "It should be our duty to take orders."
+      },
+      "number": 98,
+      "question": "Mamush:She hasn't written the report yet<br />Tigist: ______________________",
+      "chapter": 0
+    },
+    {
+      "number": 99,
+
+      "choices": {
+        "D": "My room is on the first floor.",
+        "A": "I am in Room 522.",
+        "B": "All the rooms are occupied.",
+        "C": "There is no water in my room."
+      },
+      "question": "Receptionist: May I help you, Sir?<br />Customer: ______________________",
+
+      "answer": "C",
+      "explanation": "Asking to give help."
+    },
+    {
+      "direction": "<b>Directions:</b> Questions <B>100-120</B> are related to different types Off writing. Read each of them very carefully and choose the best answer from the four alternative answers, <B>A-D</B>, given.",
+      "choices": {
+        "A": "He lives on BabileHarar.",
+        "C": "Jol is from juba South Sudan.",
+        "D": "We saw Halu in ILu Ababor.",
+        "B": "He got it from Lelo his daughter."
+      },
+      "answer": "D",
+      "section": "<b>Section seven:- Writing (100-120)</b>",
+
+      "number": 100,
+      "explanation": "All the other choices except D need comma.",
+      "question": "Which one of the following sentences is correctly punctuated?"
+    },
+    {
+      "question": "Which one of the following sentences is correctly punctuated?",
+
+      "number": 101,
+      "explanation": "In a compound sentence the two simple sentences can be joined by comma and conjunction.",
+      "choices": {
+        "B": "I will buy a new computer or I will take yours.",
+        "A": "I will buy a new computer or, I will take yours.",
+        "C": "I will buy a new computer, or I will take yours.",
+        "D": "I will buy a new computer or; I will take yours."
+      },
+      "answer": "C"
+    },
+    {
+      "explanation": "Introducing words & appositives are separated by comma.",
+
+      "answer": "C",
+
+      "number": 102,
+      "question": "Which one of the following sentences is correctly punctuated?",
+      "choices": {
+        "B": "Admittedly Mr. Brown, a member of the new club, is very rich.",
+        "C": "Admittedly, Mr. Brown, a member of the new club, is very rich.",
+        "D": "Admittedly, Mr. Brown a member of the new club, is very rich.",
+        "A": "Admittedly, Mr. Brown, a member of the new club is very rich."
+      }
+    },
+    {
+      "choices": {
+        "D": "My dear friend, Lill",
+        "C": "My beloved Lili",
+        "B": "Hi, there",
+        "A": "Hello, Lili"
+      },
+      "question": "How would Mimi most likely begin her letter to an intimate friend, Lili?",
+      "answer": "B",
+
+      "number": 103,
+      "explanation": "A letter written to intimate friend in an informal one. So expression with informal tone is used."
+    },
+    {
+      "explanation": "Descriptive writing is a picture in words. You say / state what somebody or something is like, give picture in words.<br />i.e a verbal picture of a person, place, thing etc.",
+
+      "choices": {
+        "B": "I wouldn't say that it was too cold at the tip of the mountain.",
+        "D": "What they call a mountain in this country is just a hill elsewhere.",
+        "A": "We got to the tip of the mountain around 11:30.",
+        "C": "Up at the tip of the mountain, it was too cold but it got warmer as we climbed down."
+      },
+      "answer": "D",
+
+      "number": 104,
+      "question": "Which one of the following sentences is most likely taken from a descriptive piece of writing?"
+    },
+    {
+      "choices": {
+        "C": "descriptive",
+        "B": "narrative",
+        "D": "argumentative",
+        "A": "expository"
+      },
+      "question": "Everyone seemed hungry when we got Adama. So we suggested a stopover to which all agreed. Strangers as we were, we didn't know which restaurant to go to... What kind of writing is this most likely taken from?",
+      "answer": "B",
+      "explanation": "Narration is a story telling that happened. It is concerned with describing a series of events happenings or incidents which may be either real or imaginary that leads to a conclusion.",
+
+      "number": 105,
+      "chapter": 0
+    },
+    {
+      "question": "Russian fighter jets had pounded the city for three days. Everything 'turned into nibbles and it was difficult to imagine where those tall buildings were taken to. As I stood dumbstruck, I heard an agonized cry from an elderly woman caught in the debris... What kind of writing is this most likely taken from?",
+
+      "answer": "A",
+
+      "number": 106,
+      "choices": {
+        "B": "expository",
+        "A": "descriptive",
+        "C": "narrative",
+        "D": "argumentative"
+      },
+      "explanation": "Descriptive writing."
+    },
+    {
+      "choices": {
+        "B": "To me, the meeting was useless and waste of time.",
+        "A": "Having spoken for five minutes, I saw an old friend sitting among the audience.",
+        "C": "Almost all the attendees were elderly people of over 60.",
+        "D": "The hall was full to the brim and all the seats were taken."
+      },
+
+      "number": 107,
+      "answer": "A",
+      "explanation": "",
+      "question": "Which one of the following sentences is most likely taken from a narrative piece of writing?"
+    },
+    {
+      "choices": {
+        "B": "expository",
+        "C": "narrative",
+        "D": "description",
+        "A": "argumentative"
+      },
+      "answer": "C",
+      "question": "More than twenty years ago, two researchers went into middle class homes and studied the toys found in children's rooms. What kind of writing is this most likely taken from?",
+      "explanation": "Narrating a story.",
+      "number": 108,
+
+      "chapter": 0
+    },
+    {
+      "explanation": "It is a direct speech, so a comma must be used after Bantu.",
+
+      "choices": {
+        "D": "Shomo said, &#8221;Batu, Take i t away!&#8221;",
+        "C": "Shomo said, Batu, &#8221;take it away!&#8221;",
+        "A": "Shomo said, &#8221;Batu, take it away!&#8221;",
+        "B": "Shomo said, &#8221;Batu take it away!&#8221;"
+      },
+
+      "question": "Which one of the following sentences has a correct punctuation?",
+      "number": 109,
+      "answer": "A"
+    },
+    {
+      "number": 110,
+
+      "choices": {
+        "B": "body",
+        "A": "conclusion",
+        "D": "introduction",
+        "C": "discussion"
+      },
+      "explanation": "It is a summary of the main idea or an opinion which is the result of reasoning.",
+      "question": "&#8221;it is possible to see that parental influence has a significant impact on the academic performance and social interaction of a child.&#8221; Which section of a research report is this most likely taken from?",
+
+      "answer": "A"
+    },
+    {
+      "choices": {
+        "A": "most likely research topic for the above study?",
+        "C": "The contribution of helping parents to students' academic success.",
+        "D": "The relationship between students' time spent helping their family and their academic success.",
+        "B": "Factors enhancing students' academic success at high school."
+      },
+
+      "explanation": "The relationship between students time spent helping their family and their academic success.",
+      "number": 111,
+      "question": "Altogether, majority of the students surveyed reported that the time they spent helping their family affected their success in education. What is the",
+      "answer": "C"
+    },
+    {
+      "number": 112,
+      "choices": {
+        "A": "High school students should not be sent to schools away from home.",
+        "B": "High schools should as much as possible be built at the minimum distance from each other.",
+        "D": "High school students should, as much as possible, not be exposed to any challenge.",
+        "C": "High schools should give special attention to students coming from different areas."
+      },
+
+      "question": "The amount of time high school students spend helping their family. Which one of the following could be a possible recommendation for a study investigating The Challenges of Living away from Home: The Case of High School Students?",
+      "explanation": "High schools should as much as possible be built at the minimum distance from each other.",
+      "answer": "B"
+    },
+    {
+      "question": "Which one of the following is a possible summary of a research conducted on income as related to life style?",
+      "number": 113,
+      "answer": "C",
+      "explanation": "People have to plan themselves and live according to their income can be the best summary.",
+
+      "choices": {
+        "B": "Income tremendously affected participants' life style.",
+        "C": "People have to plan themselves and live according to their income.",
+        "A": "Income has no significant effect on one's life style.",
+        "D": "This study tried to see the effect of income on people's lifestyle."
+      },
+      "grade": 0
+    },
+    {
+      "answer": "B",
+
+      "explanation": "With respect is the appropriate closing of letter of application",
+      "number": 114,
+
+      "question": "What could be the most appropriate closing to your application for an employment?",
+      "choices": {
+        "A": "Yours with respect,",
+        "D": "Expecting your response,",
+        "C": "Yours truly,",
+        "B": "With respect,"
+      }
+    },
+    {
+      "explanation": "Apology/a word or statement to say one is sorry for having done wrong.",
+      "number": 115,
+
+      "question": "my actions and the trouble I have caused...&#8221; this is likely taken from a letter of <u>                </u>",
+      "choices": {
+        "D": "apology",
+        "C": "enquiry",
+        "B": "disappointment",
+        "A": "complaint"
+      },
+      "answer": "D",
+      "chapter": 0
+    },
+    {
+      "choices": {
+        "D": "Pereference",
+        "A": "Accommodation",
+        "C": "occupasion",
+        "B": "Occurrence"
+      },
+      "number": 116,
+      "explanation": "Accommodation &#10007; &emsp; Accomodation &#10003;<br />Occupasion &#10007; &emsp; Occupation &#10003;<br />Occurence &#10003; <br /> Pereference &#10007; &emsp; Preference &#10003;",
+      "answer": "B",
+
+      "question": "Which one of the following words is correctly spelled?"
+    },
+    {
+      "choices": {
+        "D": "a mixing instruction",
+        "C": "a cooking instruction",
+        "A": "eating instruction",
+        "B": "washing instruction"
+      },
+
+      "answer": "D",
+      "question": "&#8221;Stir well with a broad stirring stick,&#8221; This is <u>                </u>",
+      "explanation": "To stir means to move a spoon round and round in a liquid in order to mix it thoroughly",
+      "number": 117,
+      "grade": 0
+    },
+    {
+      "explanation": "It can best fill the bank",
+      "answer": "D",
+      "question": "&#8221;George Washington Carver was born a slave in Missouri in 1864. In spite of his humble beginning, he managed to obtain a degree in agricultural science in 1894 <u>                </u>. His research showed that 300 products could be derived from the peanut&#8221; Which of the following sentences fills the blank in the paragraph?",
+      "choices": {
+        "B": "Carver never patented most of his many discoveries.",
+        "A": "As a farmhand, he obtained a high school education.",
+        "C": "Peanuts are a chief product of Alabama.",
+        "D": "Then, he devoted his life to research products involving southern crops."
+      },
+
+      "number": 118
+    },
+    {
+      "question": "&#8221; ... it can be said that use of bamboo reinforcement is a better and economical alternative in view of overall cost&#8221; This statement is likely taken from the <u>                </u> section of a report",
+
+      "choices": {
+        "A": "introduction",
+        "C": "conclusion",
+        "D": "methodology",
+        "B": "recommendation"
+      },
+      "answer": "B",
+      "number": 119,
+      "explanation": "It is taken the recommendation part of the report"
+    },
+    {
+      "number": 120,
+      "question": "&#8221;The car was speeding down the deserted highway when the accident happened. The driver fell asleep at the wheel and drove straight into a tree...&#8221; This text is likely taken from a/an <u>                </u> piece of writing.",
+
+      "choices": {
+        "C": "expository",
+        "D": "descriptive",
+        "B": "narrative",
+        "A": "argumentative"
+      },
+      "explanation": "Example of the incident has been given.",
+      "answer": "B",
+      "grade": 0
+    }
+  ]
+}

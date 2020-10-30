@@ -23,30 +23,38 @@ class _DemoState extends State<Demo> {
 
   @override
   Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
 
     return new Scaffold(
         appBar: AppBar(
           title: Text('flutter_html Example'),
           centerTitle: true,
         ),
-        body: PageViewWithIndicator(
-            bodyPageController: _bodyPageController,
-            pages: [
-              '1',
-              '2',
-              'P'
-            ],
-            childern: [
-              ExamPage(
-                examModel: ExamModel(
-                  question:
-                      "Why do micro-organisms decompose dead organic matter?",
-                  choices: ChoiceModel(),
-                ),
-              ),
-              Html(data: "Hello There"),
-              Html(data: "Hello There"),
-            ]));
+        body: FutureBuilder(
+          future: DefaultAssetBundle.of(context)
+              .loadString("assets/english_2008.json"),
+          builder: (_, snapshot) {
+            if (snapshot.data != null) {
+              ExamModel.fromJson(snapshot.data);
+            }
+            return PageViewWithIndicator(
+                bodyPageController: _bodyPageController,
+                pages: [
+                  '1',
+                  '2',
+                  'P'
+                ],
+                childern: [
+                  // ExamPage(
+                  //   examModel: ExamModel(
+                  //     question:
+                  //         "Why do micro-organisms decompose dead organic matter?",
+                  //     choices: ChoiceModel(),
+                  //   ),
+                  // ),
+                  Html(data: "Hello There"),
+                  Html(data: "Hello There"),
+                ]);
+          },
+        ));
   }
 }

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/style.dart';
-import 'package:matric/core/data_models/exam.dart';
+import 'package:matric/core/data_models/question.dart';
 import 'package:matric/ui/widgets/choice_card.dart';
 import 'package:matric/ui/widgets/title_card.dart';
 
 class ExamPage extends StatelessWidget {
-  const ExamPage({Key key, this.examModel}) : super(key: key);
+  const ExamPage({Key key, this.questionModel}) : super(key: key);
 
-  final ExamModel examModel;
+  final QuestionModel questionModel;
 
   Widget _buildTitledCard(String title, String content) => content != null
       ? TitledCard(
@@ -23,12 +23,12 @@ class ExamPage extends StatelessWidget {
   List<Widget> _buildPageContent() {
     List<Widget> children = [];
 
-    Widget section = _buildTitledCard('Section', examModel.section);
-    Widget direction = _buildTitledCard('Direction', examModel.direction);
-    Widget table = _buildTitledCard('Table', examModel.table);
-    Widget paragraph = _buildTitledCard('Paragraph', examModel.paragraph);
-    Widget image = _buildTitledCard('Image', examModel.image);
-    Widget question = _buildTitledCard('Question', examModel.question);
+    Widget section = _buildTitledCard('Section', questionModel.section);
+    Widget direction = _buildTitledCard('Direction', questionModel.direction);
+    Widget table = _buildTitledCard('Table', questionModel.table);
+    Widget paragraph = _buildTitledCard('Paragraph', questionModel.paragraph);
+    Widget image = _buildTitledCard('Image', questionModel.image);
+    Widget question = _buildTitledCard('Question', questionModel.question);
     Widget choice = ChoiceCard();
 
     if (section != null) children.add(section);
