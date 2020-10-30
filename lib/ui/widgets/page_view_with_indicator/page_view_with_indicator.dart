@@ -15,27 +15,23 @@ class PageViewWithIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: [
-          PageIndicator(
-            bodyPageController: bodyPageController,
-            pages: pages ??
-                List.generate(
-                  childern.length,
-                  (index) => (index + 1).toString(),
-                ),
-          ),
-          Expanded(
-            child: Container(
-              child: PageView(
-                controller: bodyPageController,
-                children: childern,
+    return Column(
+      children: [
+        PageIndicator(
+          bodyPageController: bodyPageController,
+          pages: pages ??
+              List.generate(
+                childern.length,
+                (index) => (index + 1).toString(),
               ),
-            ),
-          )
-        ],
-      ),
+        ),
+        Expanded(
+          child: PageView(
+            controller: bodyPageController,
+            children: childern,
+          ),
+        )
+      ],
     );
   }
 }

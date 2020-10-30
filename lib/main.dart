@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:matric/core/services/navigation_service.dart';
 import 'package:matric/locator.dart';
-import 'package:matric/router.dart';
+import 'package:matric/gen_router.dart';
 import 'package:matric/routes.dart';
 
 import 'package:firebase_core/firebase_core.dart';
@@ -31,8 +31,8 @@ class MyApp extends StatelessWidget {
             ),
       ),
       navigatorKey: locator<NavigationService>().navigatorKey,
-      initialRoute: Routes.Home,
-      onGenerateRoute: Router.generateRoute,
+      initialRoute: Routes.Demo,
+      onGenerateRoute: GenRouter.generateRoute,
     );
   }
 }

@@ -7,7 +7,7 @@ import 'package:matric/ui/views/exam_practice/exam_practice_view.dart';
 import 'package:matric/ui/views/home/home_view.dart';
 import 'package:matric/ui/views/subject/subject_view.dart';
 
-class Router {
+class GenRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       // for development purpose
