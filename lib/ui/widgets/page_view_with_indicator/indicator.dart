@@ -20,19 +20,13 @@ class Indicator extends StatelessWidget {
 
     return Container(
       decoration: BoxDecoration(borderRadius: boxy),
-      child: Center(
-        child: InkWell(
-          onTap: onTap,
-          borderRadius: boxy,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(
-              vertical: 10.0,
-              horizontal: 15.0,
-            ),
-            child: Text(
-              page,
-              style: _fontStyle,
-            ),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: boxy,
+        child: Center(
+          child: Text(
+            page,
+            style: _fontStyle,
           ),
         ),
       ),

@@ -41,7 +41,10 @@ class _PageIndicatorState extends State<PageIndicator> {
 
           setState(() {
             currentPage = widget.bodyPageController.page.round();
-            size = ((20 * (0.5 - x)) + (40 * x)) / 0.5;
+            if (currentPage > 99)
+              size = ((20 * (0.5 - x)) + (32 * x)) / 0.5;
+            else
+              size = ((20 * (0.5 - x)) + (40 * x)) / 0.5;
           });
           return true;
         },
