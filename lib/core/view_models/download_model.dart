@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:matric/core/models/search_ref.dart';
+import 'package:matric/core/data_models/search_ref.dart';
 import 'package:matric/core/services/connectivity_service.dart';
 import 'package:matric/core/services/firestore_service.dart';
 import 'package:matric/locator.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:matric/core/models/choice.dart';
-import 'package:matric/core/models/exam.dart';
+import 'package:matric/core/data_models/choice.dart';
+import 'package:matric/core/data_models/exam.dart';
 import 'package:matric/ui/widgets/exam_page.dart';
 import 'package:matric/ui/widgets/page_view_with_indicator/page_view_with_indicator.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/style.dart';
-import 'package:matric/core/models/exam.dart';
+import 'package:matric/core/data_models/exam.dart';
 import 'package:matric/ui/widgets/choice_card.dart';
 import 'package:matric/ui/widgets/title_card.dart';
 
