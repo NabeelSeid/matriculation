@@ -18,7 +18,7 @@ class PageIndicator extends StatefulWidget {
 class _PageIndicatorState extends State<PageIndicator> {
   ScrollController _indicatorPageController;
   double size = 40;
-  int index = 0;
+  int currentPage = 0;
 
   @override
   void initState() {
@@ -40,7 +40,7 @@ class _PageIndicatorState extends State<PageIndicator> {
           double x = (0.5 - (widget.bodyPageController.page % 1)).abs();
 
           setState(() {
-            index = widget.bodyPageController.page.round();
+            currentPage = widget.bodyPageController.page.round();
             size = ((20 * (0.5 - x)) + (40 * x)) / 0.5;
           });
           return true;
@@ -48,11 +48,13 @@ class _PageIndicatorState extends State<PageIndicator> {
         child: PageView(
           controller: _indicatorPageController,
           pageSnapping: false,
-          children: widget.pages.map((e) {
-            int i = widget.pages.indexOf(e);
+          children: widget.pages.map((page) {
+            int i = widget.pages.indexOf(page);
             return Indicator(
-              e,
-              fontSize: i == index ? size : null,
+              page,
+              fontSize: i == currentPage ? size : null,
+              onTap: () => widget.bodyPageController.animateToPage(i,
+                  duration: Duration(milliseconds: 300), curve: Curves.easeOut),
             );
           }).toList(),
         ),

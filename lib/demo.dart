@@ -36,7 +36,7 @@ class _DemoState extends State<Demo> {
             pages: [
               '1',
               '2',
-              'p'
+              'P'
             ],
             childern: [
               ListView(

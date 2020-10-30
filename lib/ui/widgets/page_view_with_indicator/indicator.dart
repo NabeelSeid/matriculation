@@ -25,7 +25,10 @@ class Indicator extends StatelessWidget {
           onTap: onTap,
           borderRadius: boxy,
           child: Padding(
-            padding: const EdgeInsets.all(0.0),
+            padding: const EdgeInsets.symmetric(
+              vertical: 10.0,
+              horizontal: 15.0,
+            ),
             child: Text(
               page,
               style: _fontStyle,
