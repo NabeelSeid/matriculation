@@ -5,6 +5,7 @@ class ExamModel {
   String subject;
   int year;
   bool chapterized;
+  List<String> pages;
   List<QuestionModel> questions;
 
   ExamModel({
@@ -12,6 +13,7 @@ class ExamModel {
     this.subject,
     this.year,
     this.chapterized,
+    this.pages,
     this.questions,
   });
 
@@ -20,6 +22,12 @@ class ExamModel {
         subject: examJson['subject'],
         year: examJson['year'],
         chapterized: examJson['chapterized'],
+        pages: examJson['pages'] != null
+            // There is pages list providied
+            ? (examJson['pages'] as List).map((page) => page as String).toList()
+            // There is no pages list generate page number from total count of questions
+            : List.generate((examJson['count'] as int),
+                (index) => (index + 1) as String).toList(),
         questions: (examJson['questions'] as List)
             .map((question) => QuestionModel.fromJson(question))
             .toList(),

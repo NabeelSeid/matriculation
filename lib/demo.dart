@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:matric/core/data_models/exam.dart';
+import 'package:matric/core/data_models/question.dart';
+import 'package:matric/ui/widgets/exam_page.dart';
 import 'package:matric/ui/widgets/page_view_with_indicator/page_view_with_indicator.dart';
 
 import 'dart:convert';
@@ -14,6 +16,7 @@ class Demo extends StatefulWidget {
 
 class _DemoState extends State<Demo> {
   PageController _bodyPageController;
+  ExamModel examModel;
 
   @override
   void initState() {
@@ -33,29 +36,19 @@ class _DemoState extends State<Demo> {
               .loadString("assets/english_2008.json"),
           builder: (_, snapshot) {
             if (snapshot.data != null) {
-              ExamModel.fromJson(json.decode(snapshot.data));
+              examModel = ExamModel.fromJson(json.decode(snapshot.data));
             }
-
-            print(List.generate(120, (index) => index.toString()));
             return PageViewWithIndicator(
                 bodyPageController: _bodyPageController,
-                pages: [
-                  '1',
-                  '2',
-                  'P'
-                ],
-                childern: [
-                  // ExamPage(
-                  //   examModel: ExamModel(
-                  //     question:
-                  //         "Why do micro-organisms decompose dead organic matter?",
-                  //     choices: ChoiceModel(),
-                  //   ),
-                  // ),
-                  Html(data: "Hello There"),
-                  Html(data: "Hello There"),
-                  Html(data: "Hello There"),
-                ]);
+                pages: examModel.pages ?? ['1', '2', 'P'],
+                childern: examModel.questions
+                        .map((question) => ExamPage(questionModel: question))
+                        .toList() ??
+                    [
+                      Html(data: "Hello There"),
+                      Html(data: "Hello There"),
+                      Html(data: "Hello There"),
+                    ]);
           },
         ));
   }
