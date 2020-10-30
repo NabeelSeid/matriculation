@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html/style.dart';
 import 'package:matric/ui/shared/border_shape.dart';
 import 'package:matric/ui/widgets/title_card.dart';
 
@@ -108,8 +110,11 @@ class Choice<T> extends StatelessWidget {
             onChanged: onChanged,
           ),
           Expanded(
-            child: Text(
-                'Hello There how are you doing today! Hello There how are you doing today!'),
+            child: Html(
+              data:
+                  'Hello There how are you doing today! Hello There how are you doing today!',
+              style: {'body': Style(margin: EdgeInsets.all(0.0))},
+            ),
           ),
           showAnswer(),
         ],
