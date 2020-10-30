@@ -34,7 +34,9 @@ class QuestionModel {
           section: questionJson['section'],
           direction: questionJson['direction'],
           question: questionJson['question'],
-          choices: ChoiceModel.fromJson(questionJson['choices']),
+          choices: questionJson['choices'] != null
+              ? ChoiceModel.fromJson(questionJson['choices'])
+              : null,
           table: questionJson['table'],
           image: questionJson['image'],
           paragraph: questionJson['paragraph'],

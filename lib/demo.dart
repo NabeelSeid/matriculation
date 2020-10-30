@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:matric/core/data_models/choice.dart';
 import 'package:matric/core/data_models/exam.dart';
-import 'package:matric/ui/widgets/exam_page.dart';
 import 'package:matric/ui/widgets/page_view_with_indicator/page_view_with_indicator.dart';
+
+import 'dart:convert';
 
 class Demo extends StatefulWidget {
   Demo({Key key}) : super(key: key);
@@ -23,7 +23,6 @@ class _DemoState extends State<Demo> {
 
   @override
   Widget build(BuildContext context) {
-
     return new Scaffold(
         appBar: AppBar(
           title: Text('flutter_html Example'),
@@ -34,8 +33,10 @@ class _DemoState extends State<Demo> {
               .loadString("assets/english_2008.json"),
           builder: (_, snapshot) {
             if (snapshot.data != null) {
-              ExamModel.fromJson(snapshot.data);
+              ExamModel.fromJson(json.decode(snapshot.data));
             }
+
+            print(List.generate(120, (index) => index.toString()));
             return PageViewWithIndicator(
                 bodyPageController: _bodyPageController,
                 pages: [
@@ -51,6 +52,7 @@ class _DemoState extends State<Demo> {
                   //     choices: ChoiceModel(),
                   //   ),
                   // ),
+                  Html(data: "Hello There"),
                   Html(data: "Hello There"),
                   Html(data: "Hello There"),
                 ]);
