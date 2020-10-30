@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:matric/core/data_models/exam.dart';
-import 'package:matric/core/data_models/question.dart';
-import 'package:matric/ui/widgets/exam_page.dart';
 import 'package:matric/ui/widgets/page_view_with_indicator/page_view_with_indicator.dart';
 
 import 'dart:convert';
+
+import 'package:matric/ui/widgets/question_page.dart';
 
 class Demo extends StatefulWidget {
   Demo({Key key}) : super(key: key);
@@ -42,7 +42,8 @@ class _DemoState extends State<Demo> {
                 bodyPageController: _bodyPageController,
                 pages: examModel.pages ?? ['1', '2', 'P'],
                 childern: examModel.questions
-                        .map((question) => ExamPage(questionModel: question))
+                        .map(
+                            (question) => QuestionPage(questionModel: question))
                         .toList() ??
                     [
                       Html(data: "Hello There"),

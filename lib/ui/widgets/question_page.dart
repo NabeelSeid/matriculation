@@ -5,8 +5,8 @@ import 'package:matric/core/data_models/question.dart';
 import 'package:matric/ui/widgets/choice_card.dart';
 import 'package:matric/ui/widgets/title_card.dart';
 
-class ExamPage extends StatelessWidget {
-  const ExamPage({Key key, this.questionModel}) : super(key: key);
+class QuestionPage extends StatelessWidget {
+  const QuestionPage({Key key, this.questionModel}) : super(key: key);
 
   final QuestionModel questionModel;
 
