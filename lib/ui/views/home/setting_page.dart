@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:matric/core/view_models/dark_theme_model.dart';
+import 'package:matric/locator.dart';
 import 'package:matric/ui/widgets/scrollable_list.dart';
 
 class SettingPage extends StatelessWidget {
@@ -11,8 +13,8 @@ class SettingPage extends StatelessWidget {
       paddingInBetween: 15.0,
       children: [
         SwitchListTileWithIcon(
-          value: false,
-          onChanged: (_) {},
+          value: locator<DarkThemeModel>().darkTheme,
+          onChanged: (value) => locator<DarkThemeModel>().darkTheme = value,
           leading: Icon(Icons.wb_sunny),
           title: Text('Dark Mode'),
           subtitle:
