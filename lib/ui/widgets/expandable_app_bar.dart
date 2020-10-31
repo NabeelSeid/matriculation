@@ -36,6 +36,8 @@ class _ExpandableAppBarState extends State<ExpandableAppBar> {
     Future.delayed(Duration.zero, () {
       _screenHeight = MediaQuery.of(context).size.height;
       _expandedHeight = _screenHeight * 0.3967;
+      // TODO _expandedHeight for landscape is smaller
+      // TODO update expandedHeight on delegate
     });
 
     _background = widget.background ?? Colors.grey.withOpacity(0.5);

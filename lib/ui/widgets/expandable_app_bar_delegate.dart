@@ -65,10 +65,7 @@ class ExpandableAppBarDelegate extends SliverPersistentHeaderDelegate {
                     child: Center(
                       child: Text(
                         this.title,
-                        style: Theme.of(context)
-                            .textTheme
-                            .headline4
-                            .copyWith(color: Colors.black),
+                        style: expandedAppBarTitleStyle(context),
                       ),
                     ),
                   ),

@@ -24,3 +24,6 @@ TextStyle cardTitle(context) => Theme.of(context)
 
 TextStyle selectedPageIndicatorStyle(context) =>
     Theme.of(context).textTheme.headline3.copyWith(color: textColor(context));
+
+TextStyle expandedAppBarTitleStyle(context) =>
+    Theme.of(context).textTheme.headline4.copyWith(color: textColor(context));
