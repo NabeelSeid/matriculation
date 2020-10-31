@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:matric/ui/widgets/choice_card.dart';
-import 'package:matric/ui/widgets/page_view_with_indicator/page_view_with_indicator.dart';
 import 'package:matric/ui/widgets/title_card.dart';
+import 'package:matric/ui/widgets/page_view_with_indicator/page_view_with_indicator.dart';
 
 class ExamPracticeView extends StatefulWidget {
   ExamPracticeView({Key key}) : super(key: key);

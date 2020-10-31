@@ -6,21 +6,23 @@ class ThemeStyle {
   static ThemeData themeData(bool isDarkTheme, BuildContext context) {
     return isDarkTheme
         ? ThemeData.dark().copyWith(
-            appBarTheme: AppBarTheme(
-              elevation: 0.0,
-              color: ThemeData.dark().canvasColor,
-              iconTheme: ThemeData.dark().iconTheme,
-              textTheme: Theme.of(context).textTheme,
-            ),
+            primaryColor: Colors.black,
+            appBarTheme: ThemeData.dark().appBarTheme.copyWith(
+                  elevation: 0.0,
+                  color: ThemeData.dark().canvasColor,
+                  // iconTheme: ThemeData.dark().iconTheme,
+                  // textTheme: Theme.of(context).textTheme,
+                ),
           )
         : ThemeData.light().copyWith(
-            // primarySwatch: Colors.blue,
-            appBarTheme: AppBarTheme(
-              elevation: 0.0,
-              color: ThemeData.light().canvasColor,
-              iconTheme: ThemeData.light().iconTheme,
-              textTheme: Theme.of(context).textTheme,
-            ),
+            appBarTheme: ThemeData.light().appBarTheme.copyWith(
+                  elevation: 0.0,
+                  color: ThemeData.light().canvasColor,
+                  // appBar has white text color on light theme
+                  // Manualy change it to back
+                  iconTheme: ThemeData.light().iconTheme,
+                  textTheme: Theme.of(context).textTheme,
+                ),
           );
   }
 }
