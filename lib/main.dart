@@ -27,6 +27,8 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+    // TODO implement db/prefs service
+    // TODO fetch setting values from db
   }
 
   @override
